@@ -1,0 +1,25 @@
+{
+  "name": "astro-chef",
+  "version": "1.0.0",
+  "description": "astro docs recipes catalog for digitizing family herloom recipes",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/starlight": "^0.36.2",
+    "astro": "^5.16.0",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.5",
+    "typescript": "^5.9.3"
+  }
+}

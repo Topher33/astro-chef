@@ -1,0 +1,109 @@
+---
+import recipesData from '../assets/recipes.json';
+
+const { recipes } = recipesData;
+const categories = [...new Set(recipes.map(r => r.category))].sort();
+---
+
+<div class="search-filter-section">
+  <input
+    type="text"
+    id="recipe-search"
+    class="search-box"
+    placeholder="Search recipes by name, ingredients, or description..."
+  />
+  
+  <div class="category-filters">
+    <button class="category-filter active" data-category="all">
+      All Recipes
+    </button>
+    {categories.map((category) => (
+      <button class="category-filter" data-category={category}>
+        {category}
+      </button>
+    ))}
+  </div>
+</div>
+
+<div id="recipe-grid" class="recipe-grid">
+  {recipes.map((recipe) => (
+    <div class="recipe-card" data-category={recipe.category}>
+      <span class="recipe-category">{recipe.category}</span>
+      <h3>{recipe.title}</h3>
+      <p class="recipe-description">{recipe.description}</p>
+      <div class="recipe-meta">
+        <span>⏱️ Prep: {recipe.prepTime}</span>
+        <span>🔥 Cook: {recipe.cookTime}</span>
+        <span>🍽️ Serves: {recipe.servings}</span>
+      </div>
+      {recipe.origin && (
+        <p class="recipe-origin">— {recipe.origin}</p>
+      )}
+    </div>
+  ))}
+</div>
+
+<div id="no-results" class="no-results" style="display: none;">
+  No recipes found matching your search criteria.
+</div>
+
+<script>
+  const searchInput = document.getElementById('recipe-search') as HTMLInputElement;
+  const categoryButtons = document.querySelectorAll('.category-filter');
+  const recipeCards = document.querySelectorAll('.recipe-card');
+  const recipeGrid = document.getElementById('recipe-grid');
+  const noResults = document.getElementById('no-results');
+
+  let currentCategory = 'all';
+  let currentSearch = '';
+
+  function filterRecipes() {
+    let visibleCount = 0;
+
+    recipeCards.forEach((card) => {
+      const cardElement = card as HTMLElement;
+      const category = cardElement.dataset.category;
+      const title = cardElement.querySelector('h3')?.textContent?.toLowerCase() || '';
+      const description = cardElement.querySelector('.recipe-description')?.textContent?.toLowerCase() || '';
+      const searchText = currentSearch.toLowerCase();
+
+      const matchesCategory = currentCategory === 'all' || category === currentCategory;
+      const matchesSearch = currentSearch === '' || 
+                           title.includes(searchText) || 
+                           description.includes(searchText);
+
+      if (matchesCategory && matchesSearch) {
+        cardElement.style.display = 'block';
+        visibleCount++;
+      } else {
+        cardElement.style.display = 'none';
+      }
+    });
+
+    if (recipeGrid && noResults) {
+      if (visibleCount === 0) {
+        recipeGrid.style.display = 'none';
+        noResults.style.display = 'block';
+      } else {
+        recipeGrid.style.display = 'grid';
+        noResults.style.display = 'none';
+      }
+    }
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      currentSearch = (e.target as HTMLInputElement).value;
+      filterRecipes();
+    });
+  }
+
+  categoryButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      categoryButtons.forEach((btn) => btn.classList.remove('active'));
+      button.classList.add('active');
+      currentCategory = (button as HTMLElement).dataset.category || 'all';
+      filterRecipes();
+    });
+  });
+</script>

@@ -50,7 +50,7 @@ This is a family recipes catalog built with [Astro](https://astro.build) and the
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Topher33/astro-chef.git
+git clone <your-repository-url>
 cd astro-chef
 ```
 

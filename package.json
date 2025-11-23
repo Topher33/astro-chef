@@ -1,7 +1,7 @@
 {
   "name": "astro-chef",
   "version": "1.0.0",
-  "description": "astro docs recipes catalog for digitizing family herloom recipes",
+  "description": "astro docs recipes catalog for digitizing family heirloom recipes",
   "type": "module",
   "scripts": {
     "dev": "astro dev",

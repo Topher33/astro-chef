@@ -1,218 +1,4090 @@
 {
   "recipes": [
     {
-      "id": "grandmas-chocolate-chip-cookies",
-      "title": "Grandma's Chocolate Chip Cookies",
-      "category": "Desserts",
-      "description": "Classic chocolate chip cookies that have been passed down through three generations. Crispy on the outside, chewy on the inside.",
-      "prepTime": "15 minutes",
-      "cookTime": "12 minutes",
-      "servings": 48,
+      "id": "black-eyed-pea-salsa",
+      "title": "Black Eyed Pea Salsa",
+      "category": "Appetizers",
+      "description": "Clark family recipe for Black Eyed Pea Salsa.",
+      "prepTime": "15 Minutes",
+      "cookTime": "1 Hour",
+      "servings": "8 Cups",
       "ingredients": [
-        "2 1/4 cups all-purpose flour",
-        "1 tsp baking soda",
-        "1 tsp salt",
-        "1 cup (2 sticks) butter, softened",
-        "3/4 cup granulated sugar",
-        "3/4 cup packed brown sugar",
-        "2 large eggs",
-        "2 tsp vanilla extract",
-        "2 cups chocolate chips"
+        "1 can black eyed peas, drained",
+        "1 can shoepeg corn",
+        "1 can spicy Rotel tomatoes",
+        "1/2 green pepper, finely chopped",
+        "1 jar Braswell pepper relish",
+        "1/2 c chopped cilantro",
+        "1/4 -1/2 c olive oil",
+        "1 clove fresh garlic, finely chopped",
+        "(optional) red peppers",
+        "(optional) avocado",
+        "(optional) onions"
       ],
       "instructions": [
-        "Preheat oven to 375°F (190°C).",
-        "Combine flour, baking soda and salt in a small bowl.",
-        "Beat butter, granulated sugar and brown sugar in large mixer bowl until creamy.",
-        "Add eggs and vanilla extract; beat well.",
-        "Gradually beat in flour mixture.",
-        "Stir in chocolate chips.",
-        "Drop by rounded tablespoon onto ungreased baking sheets.",
-        "Bake for 9 to 11 minutes or until golden brown.",
-        "Cool on baking sheets for 2 minutes; remove to wire racks to cool completely."
+        "Mix all the ingredients together and chill for an hour or so for best",
+        "results. Serve with tortilla chips"
       ],
-      "notes": "Grandma always said the secret is to not overbake them. They should still look slightly underdone when you take them out.",
-      "origin": "Grandma Rose's recipe from 1965",
-      "tags": ["cookies", "chocolate", "dessert", "classic"]
+      "notes": "Great summer dip with fresh ingredients",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "appetizers",
+        "corn",
+        "spicy"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
     },
     {
-      "id": "moms-sunday-pot-roast",
-      "title": "Mom's Sunday Pot Roast",
-      "category": "Main Dishes",
-      "description": "A hearty Sunday dinner staple. This tender pot roast with vegetables is comfort food at its finest.",
-      "prepTime": "20 minutes",
-      "cookTime": "3 hours",
-      "servings": 6,
+      "id": "chex-muddy-buddies",
+      "title": "Chex Muddy Buddies",
+      "category": "Appetizers",
+      "description": "Clark family recipe for Chex Muddy Buddies.",
+      "prepTime": "10 Minutes",
+      "cookTime": "30 Seconds",
+      "servings": "10 Cups",
       "ingredients": [
-        "3-4 lb chuck roast",
-        "2 tbsp vegetable oil",
-        "1 large onion, quartered",
-        "4 carrots, cut into chunks",
-        "4 potatoes, quartered",
-        "3 cloves garlic, minced",
-        "2 cups beef broth",
-        "1 cup red wine",
-        "2 bay leaves",
-        "1 tsp dried thyme",
-        "Salt and pepper to taste",
-        "2 tbsp flour (for gravy)"
+        "9 c Corn Chex, Rice Chex,Wheat Chex or Chocolate Chex cereal",
+        "1 c semisweet chocolate chips",
+        "1/2 c peanut butter",
+        "1/4 c butter",
+        "1 tsp vanilla",
+        "1 1/2 cups powdered sugar"
       ],
       "instructions": [
-        "Season roast generously with salt and pepper.",
-        "Heat oil in a large Dutch oven over medium-high heat.",
-        "Brown roast on all sides, about 3-4 minutes per side.",
-        "Remove roast and set aside.",
-        "Add onions and garlic to pot, sauté until fragrant.",
-        "Return roast to pot, add broth, wine, bay leaves, and thyme.",
-        "Bring to a boil, then reduce heat to low.",
-        "Cover and simmer for 2 hours.",
-        "Add carrots and potatoes, continue cooking for 1 more hour until vegetables are tender.",
-        "Remove roast and vegetables, make gravy with pan juices and flour.",
-        "Slice roast and serve with vegetables and gravy."
+        "Measure cereal and put in large mixing bowlÍ¾ set aside.",
+        "In a microwavable bowl mix chocolate chips, peanut butter and",
+        "butter. Cook in micro on high for 1 minute."
       ],
-      "notes": "Mom always made this on Sundays after church. The whole house would smell amazing!",
-      "origin": "Mom's adaptation of her mother's recipe",
-      "tags": ["beef", "comfort-food", "sunday-dinner", "slow-cooked"]
+      "origin": "Clark Family Collection",
+      "tags": [
+        "appetizers",
+        "chocolate",
+        "peanut butter",
+        "chex",
+        "sweet"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
     },
     {
-      "id": "aunt-marys-apple-pie",
-      "title": "Aunt Mary's Apple Pie",
-      "category": "Desserts",
-      "description": "The perfect apple pie with a flaky crust and cinnamon-spiced apple filling. A must-have at every family gathering.",
-      "prepTime": "30 minutes",
-      "cookTime": "50 minutes",
-      "servings": 8,
+      "id": "crab-cakes",
+      "title": "Crab Cakes",
+      "category": "Appetizers",
+      "description": "Clark family recipe for Crab Cakes.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
       "ingredients": [
-        "2 pie crusts (homemade or store-bought)",
-        "6-7 medium apples (Granny Smith or Honeycrisp), peeled and sliced",
-        "3/4 cup granulated sugar",
-        "1/4 cup brown sugar",
-        "2 tbsp all-purpose flour",
-        "1 tsp ground cinnamon",
-        "1/4 tsp ground nutmeg",
-        "1/4 tsp salt",
-        "2 tbsp butter, cut into small pieces",
-        "1 egg, beaten (for egg wash)",
-        "1 tbsp coarse sugar (optional)"
+        "4 ears of corn cleaned and whole kernal cut off",
+        "1 leek sliced thinly use as much or as little of this as you like",
+        "3/4 cup cream or half and half"
       ],
       "instructions": [
-        "Preheat oven to 425°F (220°C).",
-        "Place one pie crust in a 9-inch pie dish.",
-        "In a large bowl, combine apples, sugars, flour, cinnamon, nutmeg, and salt.",
-        "Pour apple mixture into pie crust and dot with butter pieces.",
-        "Cover with second pie crust, seal edges, and cut slits in top.",
-        "Brush with egg wash and sprinkle with coarse sugar if desired.",
-        "Bake for 15 minutes at 425°F.",
-        "Reduce heat to 350°F (175°C) and bake for 35-40 minutes more until golden and bubbly.",
-        "Cool for at least 2 hours before serving."
+        "In same skillet melt 1 TBS butter and add corn and leeks. Toss",
+        "until tender and add cream. Cook about 1 minute and it will",
+        "reduce."
       ],
-      "notes": "Aunt Mary always used a mix of tart and sweet apples. Serve warm with vanilla ice cream!",
-      "origin": "Aunt Mary's famous recipe from the 1970s",
-      "tags": ["pie", "apples", "dessert", "holiday"]
+      "origin": "Clark Family Collection",
+      "tags": [
+        "appetizers",
+        "cake",
+        "corn",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
     },
     {
-      "id": "nanas-chicken-noodle-soup",
-      "title": "Nana's Chicken Noodle Soup",
-      "category": "Soups & Stews",
-      "description": "The ultimate comfort food. This chicken noodle soup cures all ailments and warms the soul.",
-      "prepTime": "15 minutes",
-      "cookTime": "1 hour",
-      "servings": 8,
+      "id": "crab-dip",
+      "title": "Crab Dip",
+      "category": "Appetizers",
+      "description": "Clark family recipe for Crab Dip.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
       "ingredients": [
-        "1 whole chicken (3-4 lbs)",
-        "10 cups water",
-        "3 carrots, sliced",
-        "3 celery stalks, sliced",
-        "1 large onion, diced",
-        "3 cloves garlic, minced",
-        "2 bay leaves",
-        "1 tsp dried thyme",
-        "1 tsp dried parsley",
-        "Salt and pepper to taste",
-        "8 oz egg noodles",
-        "Fresh parsley for garnish"
+        "1 frozen creamed spinach",
+        "1 package crabmeat (imitation)",
+        "1 package cream cheese",
+        "1 green onion",
+        "1 1/2 c shredded parmesan cheese",
+        "1/4 c mayonaise",
+        "Tortilla chips"
       ],
       "instructions": [
-        "Place chicken in a large pot with water, bring to a boil.",
-        "Reduce heat and simmer for 45 minutes, skimming any foam.",
-        "Remove chicken, let cool, then shred meat and discard bones.",
-        "Add carrots, celery, onion, garlic, bay leaves, thyme, and parsley to broth.",
-        "Simmer for 20 minutes until vegetables are tender.",
-        "Add shredded chicken and noodles.",
-        "Cook for 8-10 minutes until noodles are done.",
-        "Season with salt and pepper to taste.",
-        "Garnish with fresh parsley before serving."
+        "Mix all ingredients together and put in a casserole dish. Bake at",
+        "350° for approximately 30 minutes, until bubbly around edges. Eat",
+        "with chips!"
       ],
-      "notes": "Nana always said this soup had healing powers. Make a big batch and freeze some for later!",
-      "origin": "Nana's go-to recipe for sick family members",
-      "tags": ["soup", "chicken", "comfort-food", "healing"]
+      "notes": "Really great dip for parties and tailgating!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "appetizers",
+        "dip",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
     },
     {
-      "id": "papas-cornbread",
-      "title": "Papa's Skillet Cornbread",
-      "category": "Breads & Baking",
-      "description": "Golden, crispy cornbread baked in a cast iron skillet. Perfect with chili or bbq.",
-      "prepTime": "10 minutes",
-      "cookTime": "25 minutes",
-      "servings": 8,
+      "id": "ginger-tea",
+      "title": "Ginger Tea",
+      "category": "Appetizers",
+      "description": "Clark family recipe for Ginger Tea.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
       "ingredients": [
-        "1 cup cornmeal",
-        "1 cup all-purpose flour",
-        "1/4 cup granulated sugar",
-        "1 tbsp baking powder",
-        "1/2 tsp salt",
-        "1 cup buttermilk",
-        "2 large eggs",
-        "1/3 cup melted butter",
-        "2 tbsp vegetable oil (for skillet)"
+        "3 TBS unsweetened instant tea",
+        "1 1/2 cups sugar",
+        "6 cups water",
+        "2 cups orange juice",
+        "6 oz frozen limeade concentrate",
+        "Large bottle of ginger ale"
       ],
       "instructions": [
-        "Preheat oven to 425°F (220°C).",
-        "Place a 10-inch cast iron skillet in oven with oil to heat.",
-        "In a large bowl, whisk together cornmeal, flour, sugar, baking powder, and salt.",
-        "In another bowl, whisk together buttermilk, eggs, and melted butter.",
-        "Pour wet ingredients into dry ingredients and stir until just combined.",
-        "Carefully remove hot skillet from oven.",
-        "Pour batter into hot skillet.",
-        "Bake for 20-25 minutes until golden brown and a toothpick comes out clean.",
-        "Let cool for 5 minutes before slicing."
+        "Combine all ingredients except ginger ale. Stir well to make sure",
+        "sugar is dissolved. Before serving add enough ginger ale to make 1",
+        "gallon."
       ],
-      "notes": "Papa insisted on using a cast iron skillet - it makes the edges perfectly crispy. Serve warm with butter and honey.",
-      "origin": "Papa's recipe from his Tennessee childhood",
-      "tags": ["cornbread", "bread", "southern", "side-dish"]
+      "origin": "Clark Family Collection",
+      "tags": [
+        "appetizers",
+        "sweet"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
     },
     {
-      "id": "great-grandmas-biscuits",
-      "title": "Great-Grandma's Buttermilk Biscuits",
-      "category": "Breads & Baking",
-      "description": "Flaky, buttery biscuits that melt in your mouth. The secret is in the technique.",
-      "prepTime": "15 minutes",
-      "cookTime": "12 minutes",
-      "servings": 12,
+      "id": "ham-and-cheese-sliders",
+      "title": "Ham and Cheese Sliders",
+      "category": "Appetizers",
+      "description": "Clark family recipe for Ham and Cheese Sliders.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
       "ingredients": [
-        "2 cups all-purpose flour",
-        "1 tbsp baking powder",
+        "1 Tablespoon poppyseeds",
+        "1 1/2 Tablespoons yellow mustard",
+        "1/2 cup butter, melted",
+        "1 Tablespoon minced onion",
+        "1/2 teaspoon Worcestershire sauce"
+      ],
+      "instructions": [
+        "In a small bowl, mix together mayonnaise and miracle whip.",
+        "Spread onto both sides of the center of each roll. Place a slice of",
+        "ham and a slice of Swiss inside of each roll. Close rolls and place",
+        "them into a large baking dish or heavy cookie sheet. Place very",
+        "close together.",
+        "In a medium bowl, whisk together all of the poppy seed sauce",
+        "ingredients. Pour evenly over all of the sandwiches. You do not",
+        "have to use all of the sauce! Just use enough to cover the tops. Let",
+        "sit 10 minutes or until butter sets slightly. Cover with foil and bake",
+        "at 350 degrees for 12 15 minutes or until cheese is melted.",
+        "Uncover and cook for 2 additional minutes or until tops are slightly",
+        "brown and crispy. Serve warm."
+      ],
+      "notes": "These can be assembled a day ahead and kept in\nthe fridge ready to bake.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "appetizers"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "party-punch",
+      "title": "Party Punch",
+      "category": "Appetizers",
+      "description": "Clark family recipe for Party Punch.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "4 cups cranberry juice",
+        "4 cups pineapple juice",
+        "1 TBS almond extract",
+        "1 liter of ginger ale"
+      ],
+      "instructions": [
+        "Mix everything add ginger ale before serving. You can freeze half",
+        "of this in a mold to use in a punch bowl or just serve from a",
+        "pitcher."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "appetizers"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "sausage-balls",
+      "title": "Sausage Balls",
+      "category": "Appetizers",
+      "description": "Clark family recipe for Sausage Balls.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "4 cups Bisquick",
+        "2 lbs. sausage (hot or mild, your choice)",
+        "20 oz. shredded cheese"
+      ],
+      "instructions": [
+        "Mix all 3 ingredients together... you'll probably have to use your",
+        "hands! Roll into small balls, about the size of a golf ball.",
+        "Spray your baking sheet, bake for 20 minutes at 350°."
+      ],
+      "notes": "These are yummy as appetizers or for a breakfast/brunch\nitem. Dannah doesn't like sausage but she loves these!!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "appetizers",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "vegetable-pizza",
+      "title": "Vegetable Pizza",
+      "category": "Appetizers",
+      "description": "Clark family recipe for Vegetable Pizza.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "2 packages crescent rolls",
+        "2 (8 oz) cream cheese",
+        "1 cup mayonaise",
+        "3/4 cup shredded cheddar cheese",
+        "1 package Hidden Valley dressing mix (not dip mix)"
+      ],
+      "instructions": [
+        "Spread crescent rolls and bake until golden brown. Mix cream",
+        "cheese, mayo and dressing mix. Spread over cooled crust. Sprinkle",
+        "veggies over mixture and spinkle cheese over veggies. Cut into 2\"",
+        "squares."
+      ],
+      "notes": "Great appetizer or for tailgating. Travels well and is good cold!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "appetizers",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "banana-bread",
+      "title": "Banana Bread",
+      "category": "Breads",
+      "description": "Clark family recipe for Banana Bread.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 stick of butter",
+        "1 cup of sugar (Splenda can be substituted)",
+        "2 eggs",
+        "3 ripe bananas",
+        "2 cups all purpose flour",
         "1/2 tsp baking soda",
-        "1 tsp salt",
-        "1/2 cup cold butter, cut into cubes",
-        "3/4 cup cold buttermilk",
-        "2 tbsp melted butter (for brushing)"
+        "1/2 tsp vanilla",
+        "1 cup walnuts"
       ],
       "instructions": [
-        "Preheat oven to 450°F (230°C).",
-        "In a large bowl, whisk together flour, baking powder, baking soda, and salt.",
-        "Cut in cold butter using a pastry cutter or fork until mixture resembles coarse crumbs.",
-        "Make a well in center and pour in buttermilk.",
-        "Stir gently until dough just comes together - don't overmix!",
-        "Turn dough onto a floured surface and pat into a 3/4-inch thick rectangle.",
-        "Fold dough in half, then pat out again. Repeat 2-3 times.",
-        "Cut with a 2-inch biscuit cutter, pressing straight down without twisting.",
-        "Place biscuits on a baking sheet, touching each other.",
-        "Bake for 10-12 minutes until golden brown.",
-        "Brush tops with melted butter immediately after removing from oven."
+        "Cream butter and sugar.",
+        "Add eggs and beat well.",
+        "Add mashed banana, baking soda, vanilla, and nuts.",
+        "Grease and flour 1 large or 2 small loaf pans.",
+        "Pour dough into pan.",
+        "Bake 300 degrees for 1 hour."
       ],
-      "notes": "Great-Grandma's secret: keep everything cold and don't overwork the dough. The folding creates those beautiful flaky layers.",
-      "origin": "Great-Grandma Emma's recipe from 1920s",
-      "tags": ["biscuits", "bread", "breakfast", "southern"]
+      "notes": "Madonna: Don't overcook! Eat heated with cream cheese...YUM YUM!\nMicah: I add an extra banana",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "breads",
+        "bread",
+        "vanilla",
+        "banana"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "colonnade-corn-muffins",
+      "title": "Colonnade Corn Muffins",
+      "category": "Breads",
+      "description": "Clark family recipe for Colonnade Corn Muffins.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 1/2 cups white cornmeal",
+        "1/2 cup all purpose flour",
+        "2 1/4 tsp baking powder",
+        "1 1/2 tsp salt",
+        "3/4 cup cold water",
+        "1/2 cup vegetable oil or canola",
+        "1/2 cup buttermilk",
+        "2 eggs"
+      ],
+      "instructions": [
+        "Preheat oven to 450°",
+        "Grease 12 muffin cups",
+        "In a large bowl, combine cornmeal, flour, baking powder and salt.",
+        "Add water, oil, buttermilk and eggs.",
+        "Beat well for 45 seconds.",
+        "Pour into greased muffin pan and bake for 15 20 minutes."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "breads",
+        "corn"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "cream-cheese-banana-nut-bread",
+      "title": "Cream Cheese Banana Nut Bread",
+      "category": "Breads",
+      "description": "Clark family recipe for Cream Cheese Banana Nut Bread.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "3/4 cup butter, softened",
+        "1 - 8 oz. pkg. cream cheese, softened",
+        "2 cups sugar",
+        "2 large eggs",
+        "3 cups all purpose flour",
+        "1/2 tsp baking powder",
+        "1/2 tsp baking soda",
+        "1/2 tsp salt",
+        "1 1/2 cups mashed bananas, 4 medium",
+        "1 cup chopped pecans, toasted",
+        "1/2 tsp vanilla"
+      ],
+      "instructions": [
+        "Beat butter and cream cheese until creamy.",
+        "Gradually add sugar, beating until light and fluffy.",
+        "Add eggs 1 at a time.",
+        "In a small bowl sift dry ingredients.",
+        "Add slowly to above mixture.",
+        "Stir in bananas and vanilla.",
+        "Bake in greased and floured loaf pans",
+        "Makes 2 loaves",
+        "TOPPING:",
+        "Prepare batter as directed and put in pans.",
+        "Stir together 1/2 cup firmly packed brown sugar, 1/2 cup chopped",
+        "nuts,1 TBS flour, 1 TBS melted butter and 1/8 tsp ground",
+        "cinnamon. Sprinkle over batter and bake on 350° for 1 hour"
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "breads",
+        "bread",
+        "vanilla",
+        "cheese",
+        "banana",
+        "pecan"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "mee-maws-hushpuppies",
+      "title": "Mee Maw\"s Hushpuppies",
+      "category": "Breads",
+      "description": "Clark family recipe for Mee Maw\"s Hushpuppies.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "2 cups self rising cornmeal mix",
+        "3 heaping TBS flour",
+        "1 egg",
+        "onion chopped",
+        "salt",
+        "pepper",
+        "1 tsp sugar"
+      ],
+      "instructions": [
+        "Mix with buttermilk and let it sit to rise it will double in size. Stir",
+        "down and fry in hot oil."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "breads",
+        "pie",
+        "corn",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "mexican-cornbread",
+      "title": "Mexican Cornbread",
+      "category": "Breads",
+      "description": "Clark family recipe for Mexican Cornbread.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "3 cups cornmeal",
+        "1 Tbs sugar",
+        "1/2 cup oil",
+        "1 - 8oz shoepeg corn",
+        "3 eggs, beaten",
+        "1 1/3 cups buttermilk",
+        "1/2 cup jalapeÃ±o",
+        "1 1/2 cup sharp cheese"
+      ],
+      "instructions": [
+        "Mix all ingredients together and pour in a greased 9 x 13 pan.",
+        "Cook for 25 minutes at 400°"
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "breads",
+        "bread",
+        "cheese",
+        "corn"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "quick-mexican-cornbread",
+      "title": "Quick Mexican Cornbread",
+      "category": "Breads",
+      "description": "Clark family recipe for Quick Mexican Cornbread.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 cup self rising flour",
+        "1 stick butter",
+        "1/2 cup sour cream"
+      ],
+      "instructions": [
+        "Mix ingredients together and drop into greased mini cupcake pans.",
+        "Bake @ 400° for 10 15 minute until golden brown."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "breads",
+        "bread"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "mee-maws-bbq-sauce",
+      "title": "Mee Maw\"s BBQ Sauce",
+      "category": "Sauces",
+      "description": "Clark family recipe for Mee Maw\"s BBQ Sauce.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1/2 Cup Water",
+        "1/2 Cup Vinegar",
+        "3 Tbs. Brown Sugar",
+        "1 Tbs. Worcestershire",
+        "1 Tbs. A1 Sauce and Heinz 57",
+        "Enough Ketchup to desired thickness (at least 2 cups)"
+      ],
+      "instructions": [
+        "Mix all ingredients, whisking to mix everything together. Put in",
+        "medium size pot and heat, bringing it to a boil. When boiling, turn",
+        "down to simmer, stirring to prevent sticking. When thick, it's done!",
+        "Add salt and pepper to taste."
+      ],
+      "notes": "Great on chicken and pork. In a hurry? Just mix it\nall up, pour into the crockpot over chicken breasts or pork\ntenderloin and be ready for a yummy dinner when you get home\nfrom work!!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sauces",
+        "sauce"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "thousand-island-dressing",
+      "title": "Thousand Island Dressing",
+      "category": "Sauces",
+      "description": "Clark family recipe for Thousand Island Dressing.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 1/2 cups Mayonnaise",
+        "3 tbsps Pickle relish",
+        "3 tbsps catsup or cocktail sauce",
+        "2 tbsps Worcestershire sauce",
+        "2 tsp sugar"
+      ],
+      "instructions": [
+        "Mix all of the above well. Can leave chunky or if preferred can be",
+        "blended smooth. Any of the ingred. can be increased or decreased",
+        "according to taste."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sauces"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "brocolli-and-cheddar-soup",
+      "title": "Brocolli and Cheddar Soup",
+      "category": "Soups",
+      "description": "Clark family recipe for Brocolli and Cheddar Soup.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 head of brocolli",
+        "chicken broth",
+        "1 can cream of chicken soup",
+        "cheddar cheese",
+        "garlic powder"
+      ],
+      "instructions": [
+        "Cook brocolli in small amount of water and 1 1/2 cups chicken",
+        "broth.",
+        "When tender, squash brocolli with potato masher. Stir in soup,",
+        "dissolve well. Add approx. 1 1/2 cups grated cheddar cheese,",
+        "sprinkle well with garlic salt and add salt and pepper to taste. Cook",
+        "slowly till thickened. If not thick enough add 1 tbsp. cornstarch",
+        "(mixed with water)",
+        "If you prefer you can use extra chicken broth instead of soup and",
+        "thicken with half and half and cornstarch."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "soups",
+        "soup",
+        "chicken",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "irish-stew",
+      "title": "Irish Stew",
+      "category": "Soups",
+      "description": "Clark family recipe for Irish Stew.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 lb. stew beef pieces",
+        "salt",
+        "pepper",
+        "olive oil",
+        "carrots",
+        "potatoes",
+        "1 large can tomatoes"
+      ],
+      "instructions": [
+        "Using a large skillet add 1 TBS olive oil. With pan and oil very hot",
+        "brown beef.",
+        "Take browned meat out and \"deglaze\" pan with a little bit of water",
+        "or red wine. The wine helps to give it more flavor. Add enough",
+        "water to this to cover meat. Turn down and simmer for several",
+        "hours until meat is very tender.",
+        "Cut up potatoes and carrots into pan and add diced tomatoes.",
+        "Simmer this until potatoes and carrots are tender. Add salt and",
+        "pepper as desired. You can also add some garlic powder for flavor."
+      ],
+      "notes": "Serve with corn muffins---just like Mee Maw\nalways has!! YUMMY !!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "soups",
+        "beef",
+        "potato"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "potato-soup",
+      "title": "Potato Soup",
+      "category": "Soups",
+      "description": "Clark family recipe for Potato Soup.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "5 lbs of potatoes",
+        "1 leek (white part only)",
+        "1/2 stick butter",
+        "1 - 32 oz box of chicken broth or \"homemade\"",
+        "1 - 8 oz pkg cream cheese",
+        "milk",
+        "salt and pepper"
+      ],
+      "instructions": [
+        "Mince leek and cut potatoes into bite size.",
+        "Saute leek in butter",
+        "When tender add potatoes and broth",
+        "cook till tender",
+        "Spoon out about 1 cup of broth and whisk with the cream cheese",
+        "Add this mixture back to soup",
+        "Add enough milk to make soup",
+        "Add salt and pepper to taste"
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "soups",
+        "soup",
+        "chicken",
+        "cheese",
+        "potato"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "taco-soup",
+      "title": "Taco Soup",
+      "category": "Soups",
+      "description": "Clark family recipe for Taco Soup.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 lb ground beef",
+        "1 cup chopped onion",
+        "2 garlic cloves minced",
+        "1 15 oz can black beans rinsed and drained",
+        "1 can Rotel Tomatoes",
+        "1 can tomatoes",
+        "1 can yellow whole kernel corn",
+        "1 envelope taco seasoning mix",
+        "1 envelope Ranch dressing mix",
+        "1/4 tso salt",
+        "1/4 tsp pepper"
+      ],
+      "instructions": [
+        "Brown ground beef,onion and garlic in large dutch oven. Stirring",
+        "often until done. Stir in the rest of the ingredients. Add beef broth",
+        "or water to desired consistency. Simmer 30 minutes"
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "soups",
+        "soup",
+        "beef",
+        "corn"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "vegetable-soup",
+      "title": "Vegetable Soup",
+      "category": "Soups",
+      "description": "Clark family recipe for Vegetable Soup.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "tomatoes (fresh is best for all vegetables, but canned or frozencan be used)",
+        "corn",
+        "okra",
+        "butterbeans",
+        "onion",
+        "garlic powder",
+        "salt / pepper",
+        "2 cups corn",
+        "2 cups okra (cut in rounds)",
+        "2 cups butterbeans",
+        "1 medium onion (chopped)",
+        "1/2 tsp. garlic powder"
+      ],
+      "instructions": [
+        "In saucepan add tomatoes (if canned use large)",
+        "salt and pepper to taste.",
+        "Cook till all vegetables are tender. Any other vegetable can be",
+        "added if desired. Stir during cooking to be sure corn does not stick",
+        "to bottom of pan."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "soups",
+        "soup",
+        "corn"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "beef-and-macaroni-goulash",
+      "title": "Beef and Macaroni (Goulash)",
+      "category": "Sides",
+      "description": "Clark family recipe for Beef and Macaroni (Goulash).",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Ground chuck",
+        "Macaroni",
+        "Tomatoe sauce",
+        "Worcestershire sauce",
+        "A 1 sauce",
+        "Heniz 57 sauce",
+        "onion",
+        "garlic powder"
+      ],
+      "instructions": [
+        "Brown 1 to 1/2 lbs ground chuck (drain grease when browned)",
+        "Add 1 can tomatoe sauce, 1/2 cup water and 1 cup macaroni, 1",
+        "small",
+        "chopped onion (optional, but makes much better). Add small",
+        "amount of each sauce, probably 2 tsp. each. Season with salt,",
+        "pepper and garlic powder. Cover and let cook slowly till macaroni",
+        "is tender. If more water is needed, add small amount. Let it cook",
+        "out before serving."
+      ],
+      "notes": "This can be served as is, or can be put into baking\ndish and topped with cheddar cheese. Place in oven till cheese is\nmelted. Do not overcook",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides",
+        "beef"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "blackeye-peas",
+      "title": "Blackeye Peas",
+      "category": "Sides",
+      "description": "Clark family recipe for Blackeye Peas.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "dry blackeyed peas",
+        "salt",
+        "ham bone or a hunk of ham"
+      ],
+      "instructions": [
+        "Pour 1 cup of peas( make sure and wash them before you cook",
+        "them) in a med sauce pan.",
+        "Add enough water to cover them.",
+        "Add salt and ham bone or ham",
+        "Bring to a boil and turn down to med. and cook for about 45",
+        "minutes adding water as needed. As they get tender taste them to",
+        "make sure you have enough salt."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "broccoli-salad",
+      "title": "Broccoli Salad",
+      "category": "Sides",
+      "description": "Clark family recipe for Broccoli Salad.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1/3 c cooked bacon",
+        "big bunch of broccoli",
+        "1/2 c grated cheddar cheese",
+        "1/8/c sugar",
+        "3 TBS red wine vinegar",
+        "garlic powder",
+        "1/2 c mayo",
+        "1 med purple onion",
+        "raisins or craisins"
+      ],
+      "instructions": [
+        "Mix sugar , vinegar and mayo together and set aside.",
+        "Fry bacon and crumble up",
+        "Cut broccoli into bite sizes",
+        "Add everything and mix."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides",
+        "salad",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "broccoli-corn-casserole",
+      "title": "Broccoli-Corn Casserole",
+      "category": "Sides",
+      "description": "Clark family recipe for Broccoli-Corn Casserole.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 - 16 oz. can cream style corn",
+        "1 - 10 oz. pkg frozen, chopped broccoli, thawed",
+        "1 egg, beaten",
+        "1 cup Ritz crackers, crushed",
+        "1 Tablespoon instant minced onions (not fresh!)",
+        "2 Tablespoons margarine, melted",
+        "1/2 tsp salt",
+        "dash of pepper",
+        "4 Tablespoons melted butter"
+      ],
+      "instructions": [
+        "In a mixing bowl, combine corn, thawed broccoli, 1/2 cup crushed",
+        "crackers, onion, butter, salt and pepper. Pour into buttered 1 quart",
+        "casserole.",
+        "TOPPING:",
+        "combine remaining 1/2 cup cracker crumbs and 4",
+        "Tablespoons butter. Sprinkle over vegetable mixture. Bake",
+        "casserole, uncovered, at 350° for 35 40 minutes or until well",
+        "heated."
+      ],
+      "notes": "Nana (Frances Pittard) used to make this all the\ntime when we went to their house for dinner. I don't love broccoli\nbut this is very good!!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides",
+        "casserole",
+        "corn"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "candied-yams",
+      "title": "Candied Yams",
+      "category": "Sides",
+      "description": "Clark family recipe for Candied Yams.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "4 medium sweet potatoes",
+        "1 1/2 cups water",
+        "1 cup sugar",
+        "1/3 stick butter",
+        "cornstarch"
+      ],
+      "instructions": [
+        "Peel and cut potatoes into approx 1/4 inch rounds. Place in baking",
+        "dish.",
+        "Add sugar and water together and pour over potatoes. Cut butter",
+        "into squares and place on potatoes. Cover with foil or lid and bake",
+        "till potatoes are very tender, probably 1 to 1/2 hours, at 350",
+        "degrees. Check for tenderness after 1 hr. When tender mix 1 tbsp.",
+        "cornstarch with small amount of water and stir into potatoes.",
+        "Recover and cook till liquid thickens. I like to turn broiler on after",
+        "thickened and let top brown."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides",
+        "corn",
+        "potato",
+        "sweet"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "collard-greens",
+      "title": "Collard Greens",
+      "category": "Sides",
+      "description": "Clark family recipe for Collard Greens.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "5 6 bunches of collards",
+        "1 yellow onion sliced",
+        "2 tbs garlic",
+        "6 slices bacon, sliced",
+        "2 qts chicken stock",
+        "1tsp cayenne",
+        "3 tbs apple cider vinegar",
+        "Salt and pepper to taste",
+        "Tabasco as needed."
+      ],
+      "instructions": [
+        "Get about 5 6 bunches of collards clean remove rib and slice.",
+        "Brown the onions, garlic, and bacon in pot then add greens and",
+        "chicken broth. Season with salt and pepper to taste.",
+        "Bring to a boil,",
+        "Simmer on low, covered for about an hour add spices and",
+        "seasonings.",
+        "Let it cook for another 20 minutes or so"
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides",
+        "chicken"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "creamed-corn",
+      "title": "Creamed Corn",
+      "category": "Sides",
+      "description": "Clark family recipe for Creamed Corn.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "12 ears fresh corn (yellow or white)",
+        "olive oil (or your choice of seasoning)",
+        "salt, pepper",
+        "Shuck , silk and wash corn. With a very sharp knife, clip the very",
+        "tops of the kernals, when all are cli",
+        "Creamed Corn",
+        "Fresh ears of corn (2 ears per persons)",
+        "Salt",
+        "Pepper",
+        "Slice of bacon or vegetable oil"
+      ],
+      "instructions": [
+        "Using a serrated bread knife, take off just the tops of the kernels.",
+        "Once all the",
+        "tops are off, scrape the rest of the corn off of the ear. (This will be",
+        "very",
+        "sloppy, as the cream from the corn splatters! Wear goggles!",
+        "HAHA)",
+        "Fry a piece of bacon to get some grease in which to fry the corn (if",
+        "you don't want to use bacon, use a little vegetable oil or butter).",
+        "Remove the bacon and put all the corn into the hot grease. Stir",
+        "constantly then turn down the heat. Add salt and pepper to taste",
+        "and add some water if it's not real creamy. Stir intermittently while",
+        "cooking on low heat. Cook 10 minutes, taste and see if it's done!!"
+      ],
+      "notes": "Of course, all the Clarks like using white, sweet\ncorn. YUMM-O!! Be sure\nand bake some biscuits and fried okra to serve with the fresh corn!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides",
+        "corn"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "deviled-eggs",
+      "title": "Deviled Eggs",
+      "category": "Sides",
+      "description": "Clark family recipe for Deviled Eggs.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Eggs",
+        "salt",
+        "pepper",
+        "mustard",
+        "mayonaise"
+      ],
+      "instructions": [
+        "Boil eggs in heavily salted water.",
+        "Turn heat off and keep covered for 20 minutes.",
+        "Pour water off and run cold water over them.",
+        "Peel eggs.",
+        "Cut in half and take yolk out putting yolk in a bowl",
+        "Mix yolk with mayonnaise,mustard, salt and pepper. You want it",
+        "to be creamy not dry and crumbly."
+      ],
+      "notes": "If you want it a spicy- you can add red pepper to\nyolk mixture.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "fried-okra",
+      "title": "Fried Okra",
+      "category": "Sides",
+      "description": "Clark family recipe for Fried Okra.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Lots of fresh okra",
+        "salt",
+        "flour",
+        "veg. oil"
+      ],
+      "instructions": [
+        "Wash okra.",
+        "Slice okra into small pieces.",
+        "Salt really well and let them sit for about 30 minutes.",
+        "Pour flour over them to cover all okra and toss.",
+        "Sift unused flour out of okra pieces.",
+        "Fry in batches and drain on paper towels"
+      ],
+      "notes": "Make a lot of this when you make it because\neverybody loves it!!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "frozen-fruit-salad",
+      "title": "Frozen Fruit Salad",
+      "category": "Sides",
+      "description": "Clark family recipe for Frozen Fruit Salad.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 pint sour cream",
+        "2 tsp lemon juice",
+        "3/4 cup sugar",
+        "1/8 tsp salt",
+        "1 flat can pineapple, drained",
+        "1.4 cup pecans",
+        "1/4 cup strawberries or cherries",
+        "2 sliced bananas"
+      ],
+      "instructions": [
+        "Combine all ingredients, mixing thoroughly. Pour mixture into",
+        "individual muffin tins or a baking dish and cut into individual",
+        "pieces when frozen.",
+        "Put in freezer!!"
+      ],
+      "notes": "I think this was Tricia's original recipe, but I stole\nit!! Yummy!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides",
+        "salad",
+        "banana",
+        "pecan"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "green-beans",
+      "title": "Green Beans",
+      "category": "Sides",
+      "description": "Clark family recipe for Green Beans.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Fresh green beans",
+        "salt",
+        "bacon or olive oil"
+      ],
+      "instructions": [
+        "Wash and string green beans and break into pieces.",
+        "Put in med pan and pour in enough water to almost cover beans.",
+        "Salt really well",
+        "Lay 1 piece of bacon on top",
+        "or",
+        "1 TBS olive oil",
+        "The bacon taste a lot better trust me!!",
+        "Cook until tender."
+      ],
+      "notes": "About 30 minutes before green beans are done I\nwill add 8-10 little new potatoes or red potatoes â€¦.yummy!!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "layered-salad",
+      "title": "Layered Salad",
+      "category": "Sides",
+      "description": "Clark family recipe for Layered Salad.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Head of lettuce (cleaned, dried and cut in bite sized pieces",
+        "1 - 1 1/2 Cup Mayonaise (depends on how juicy you want the salad!)",
+        "1/3 Cup Sugar",
+        "3 4 Tbs Balsamic Vinegar (or any other flavored vineragrette)",
+        "Green Onions",
+        "Bacon",
+        "Shredded Cheddar Cheese",
+        "Frozen green peas (Optional... can't really tell if they're there or not!)"
+      ],
+      "instructions": [
+        "Layer a casserole pan with lettuce. Mix the mayo, sugar and",
+        "vinegar together. Spread some over the lettuce. Sprinkle with",
+        "crispy bacon (can you use bacon bits but freshly cooked bacon is",
+        "better!), cut up green onions, cheese and peas. Do it all over again",
+        "just like lasagna."
+      ],
+      "notes": "Make a couple of hours early, cover and put in\nrefrigerator so the tastes can meld.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides",
+        "salad",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "lyonnaise-potatoes",
+      "title": "Lyonnaise Potatoes",
+      "category": "Sides",
+      "description": "Clark family recipe for Lyonnaise Potatoes.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Potatoes",
+        "Onion",
+        "Olive oil",
+        "Garlic Salt"
+      ],
+      "instructions": [
+        "Peel and cut 4 medium irish potatoes into approx. 1/4\" slices, cut 1",
+        "med. onion into strips. Pour small amout of olive oil into pan, heat",
+        "and add potatoes and onions. Slowly saute until tender,(stir",
+        "occasionally) and let some of the potatoes slightly brown. Sprinkle",
+        "with garlic powder, salt and pepper."
+      ],
+      "notes": "Great as a side dish with almost anything.\nSides & Vegetables",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides",
+        "potato"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "macaroni-and-cheese",
+      "title": "Macaroni and Cheese",
+      "category": "Sides",
+      "description": "Clark family recipe for Macaroni and Cheese.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 box elbow noodles",
+        "3 cups sharp cheddar cheese",
+        "3 TBS self rising flour",
+        "1 1/2 - 2 cups milk",
+        "2 TBS butter"
+      ],
+      "instructions": [
+        "Boil noodles till al dente' and set aside.",
+        "In a large sauce pan melt butter.",
+        "Add flour to this and whisk until it's absorbed in butter.",
+        "SLOWLY add the milk and whisk till smooth.",
+        "Cook on med heat until as thick as cream.",
+        "Add cheese and let it melt.",
+        "Put noodles in a 9 X 13 and pour cheese sauce on top.",
+        "Top with extra cheese.",
+        "Bake at 375 till cheese has melted."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "maryanns-strawberry-congealed-salad",
+      "title": "MaryAnn\"s Strawberry Congealed Salad",
+      "category": "Sides",
+      "description": "Clark family recipe for MaryAnn\"s Strawberry Congealed Salad.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1, 6 oz. strawberry jello",
+        "1 pkg. unflavored Knox gelatin",
+        "1 sm can crushed pineapple",
+        "1 lrg. pkg frozen strawberries",
+        "1, 8 oz.sour cream",
+        "1 cup chopped pecans",
+        "Boil 1 1/2 cup water"
+      ],
+      "instructions": [
+        "Mix jellos together and add to water. Stir in pineapple, strawberries",
+        "and pecans.",
+        "Pour half of this mixture into a mold or an 8 X 8 pan. Let it set up",
+        "and spread sour cream on top and add the other half of mixture.",
+        "Refridgerate until set."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides",
+        "salad",
+        "strawberry",
+        "pecan"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "onion-rings",
+      "title": "Onion Rings",
+      "category": "Sides",
+      "description": "Clark family recipe for Onion Rings.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 large onion",
+        "flour",
+        "buttermilk"
+      ],
+      "instructions": [
+        "Peel and slice onion into 1/4 to 1/2 inch rings. Separate rings, put",
+        "in bowl and pour buttermilk over rings. (about 3/4 cup. buttermilk.",
+        "Be sure rings are wet with the milk and coat with flour (Self rising)",
+        "Coat well, but knock off access. Deep fry to a golden brown. Serve",
+        "warm."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "potato-salad",
+      "title": "Potato Salad",
+      "category": "Sides",
+      "description": "Clark family recipe for Potato Salad.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Potatos",
+        "mayonaise",
+        "mustard",
+        "sweet pickle relish",
+        "pimentos",
+        "hard boiled eggs",
+        "onion optional",
+        "dill"
+      ],
+      "instructions": [
+        "Boil potatoes until tender. Boil eggs in a different pan in salted",
+        "water.",
+        "Peel potatoes and cut into bite size chunks.",
+        "Mix 1/2 cup mayo with 1 tsp mustard and 1/4 cup pickle relish,",
+        "and 2 TBS pimentos",
+        "Cut eggs into chunks.",
+        "Combine all this into a large bowl and mix. Add salt and pepper to",
+        "taste.",
+        "When salad sits it tends to dry out so you might need to add more",
+        "mayo and mustard before you serve."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides",
+        "salad",
+        "potato",
+        "sweet"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "ramen-noodle-salad",
+      "title": "Ramen Noodle Salad",
+      "category": "Sides",
+      "description": "Clark family recipe for Ramen Noodle Salad.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Romaine lettuce",
+        "broccoli",
+        "green onions",
+        "2 pkg Ramen noodles",
+        "1 stick butter",
+        "almonds",
+        "sunflower seed",
+        "dressing: 1/2 cup vegetable oil",
+        "dressing: 1 TBS soy sauce",
+        "dressing: 1/4 cup sugar",
+        "dressing: 1/4 cup apple cider vinegar"
+      ],
+      "instructions": [
+        "Saute crushed ramen noodles, almonds and sunflower seed in stick",
+        "of butter.",
+        "Drain on a paper towel.",
+        "Tear lettuce depending on what size salad you're making.",
+        "Cut up broccoli into bite sizes.",
+        "Put everything into large bowl and toss with dressing."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides",
+        "salad"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "strawberry-salad",
+      "title": "Strawberry Salad",
+      "category": "Sides",
+      "description": "Clark family recipe for Strawberry Salad.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 head of romaine lettuce",
+        "1 head boston lettuce",
+        "1 pint of strawberries sliced",
+        "1 c monterey jack cheese",
+        "1/2 c toasted walnuts",
+        "dressing: 1 c vegetable oil",
+        "dressing: 3/4 c sugar",
+        "dressing: 1/2 c red wine vinegar",
+        "dressing: 2 cloves garlic, chopped",
+        "dressing: 1/2 tsp salt",
+        "dressing: 1/4 tsp pepper",
+        "dressing: 1/2 tsp paprika"
+      ],
+      "instructions": [
+        "Mix the dressing ingredients and heat set aside.",
+        "Mix lettuce together and toss with strawberries, nuts and cheese.",
+        "Toss with dressing right before serving or you can serve dressing",
+        "on the side."
+      ],
+      "notes": "You can make dressing days in advance but it\ntends to get sweeter as it sits in refrigerator.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "sides",
+        "salad",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "chicken-and-broccoli-casserole",
+      "title": "Chicken & Broccoli Casserole",
+      "category": "Casseroles",
+      "description": "Clark family recipe for Chicken & Broccoli Casserole.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "3 4 chicken breasts (cooked and cut into bite size pieces)",
+        "2, 10 oz packages frozen broccoli (I like fresh too many stalks in frozen)",
+        "2 cans cream of chicken soup",
+        "1 cup mayonnaise",
+        "1 tsp lemon juice",
+        "1/2 tsp curry powder (I do not use)",
+        "1/2 cup cracker crumbs",
+        "1 cup shredded cheese"
+      ],
+      "instructions": [
+        "Cook Broccoli. Place in a greased casserole dish (9 x 13) Place",
+        "chicken over broccoli. Mix soup, mayonnaise, lemon juice & curry",
+        "powder. Spread over chicken.",
+        "Top with cheese and then cracker crumbs.",
+        "Bake @ 350° for 30 35 minutes."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "casseroles",
+        "chicken",
+        "casserole",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "chili-cheese-egg-casserole",
+      "title": "Chili Cheese Egg Casserole",
+      "category": "Casseroles",
+      "description": "Clark family recipe for Chili Cheese Egg Casserole.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "4 eggs",
+        "1/2 tsp baking powder",
+        "1/4 cup plain flour",
+        "1/2 tsp dry mustard",
+        "1 cup shredded Monterey Jack cheese",
+        "1 cup shredded cheddar",
+        "1 cup cottage cheese",
+        "1/4 cup butter melted",
+        "4 oz can diced green chilies"
+      ],
+      "instructions": [
+        "Preheat oven to 350°",
+        "Mix baking powder, flour and dry mustard.",
+        "Beat in eggs.",
+        "Blend in remaining ingredients.",
+        "Batter will be slightly lumpy.",
+        "Grease casserole dish and pour in.",
+        "Bake for 25 35 min or until firm in middle."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "casseroles",
+        "casserole",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "corn-pudding",
+      "title": "Corn Pudding",
+      "category": "Casseroles",
+      "description": "Clark family recipe for Corn Pudding.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 box jiffy cornbread mix",
+        "1 can cream corn",
+        "1 can whole corn",
+        "1 stick butter melted",
+        "1 8 oz sour cream"
+      ],
+      "instructions": [
+        "Mix all ingredients together and pour into q 9 X 13 casserole dish.",
+        "Bake 350° for 1 hour"
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "casseroles",
+        "pudding",
+        "corn",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "garlic-cheese-grits",
+      "title": "Garlic Cheese Grits",
+      "category": "Casseroles",
+      "description": "Clark family recipe for Garlic Cheese Grits.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Grits (Not the quick ones)",
+        "Butter",
+        "Cheese",
+        "Cream Cheese",
+        "Aloette Garlic and Herb",
+        "Salt"
+      ],
+      "instructions": [
+        "Cook grits according to package. I use the microwave. Initially,",
+        "cook for 3 minutes to get it hot. Take it out and stir every 1 minute",
+        "or so until they're done. Cook them pretty done, adding water if",
+        "they still taste grainy. Then, add salt to your taste, cheese to your",
+        "taste, cream cheese to make them creamy and as many Alouette",
+        "Garlic and Herb packages as you like (the more the richer!) Taste",
+        "as you go and you'll know!",
+        "Bake at 350° until firm and cheese is melted."
+      ],
+      "notes": "There's no set amount of anything. Just add, taste\nand add more of what you think it's missing. If I make a big pan of\nit, I'll add 1/2 package of cream cheese, a couple of Alouette's and\nenough cheese to make it cheesy without overpowering it.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "casseroles",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "impossibly-easy-ham-and-swiss-pie",
+      "title": "Impossibly Easy Ham and Swiss Pie",
+      "category": "Casseroles",
+      "description": "Clark family recipe for Impossibly Easy Ham and Swiss Pie.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 1/2 cups cut up fully cooked ham",
+        "1 cup shredded Swiss cheese (4 oz)",
+        "4 medium green onions, sliced (1/4 cup)",
+        "1/2 cup Original Bisquick",
+        "1 cup milk",
+        "1/4 tsp salt",
+        "1/8 tsp pepper",
+        "2 eggs"
+      ],
+      "instructions": [
+        "Heat oven to 400°. Grease pie plate. Sprinkle ham, cheese and",
+        "onion in pie plate. Stir remaining ingredients until blended. Pour",
+        "into pie plate.",
+        "Bake 35-40 minutes or until knife inserted in center comes out",
+        "clean. Let stand 5 minutes before serving."
+      ],
+      "notes": "Mee Maw says this is GREAT! It makes its' own\ncrust with the Bisquick!\nImpossibly easy!!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "casseroles",
+        "pie",
+        "cheese",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "poppyseed-chicken-casserole",
+      "title": "Poppyseed Chicken Casserole",
+      "category": "Casseroles",
+      "description": "Clark family recipe for Poppyseed Chicken Casserole.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 can cream of chicken soup",
+        "1 tub of sour cream",
+        "3 TBS poppyseed",
+        "1 large roll ritz crackers crushed",
+        "1 stick melted butter",
+        "chopped chicken from a whole chicken"
+      ],
+      "instructions": [
+        "Boil chicken until done, let cool and de bone.",
+        "Mix together soup and sour cream set aside",
+        "Melt butter in a small bowl add crushed ritz crackers and",
+        "poppyseed.",
+        "In a 9 X 13 put chicken on bottom. Add soup and sour cream",
+        "mixture on top of this. Add cracker mixture on top.",
+        "Bake at 375° for 30 minutes."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "casseroles",
+        "chicken",
+        "casserole"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "squash-casserole",
+      "title": "Squash Casserole",
+      "category": "Casseroles",
+      "description": "Clark family recipe for Squash Casserole.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "2 lb. yellow squash, sliced",
+        "1 small onion, diced",
+        "1/2 stick butter",
+        "3 Cups grated Cheddar cheese",
+        "2 eggs, beaten",
+        "1/2 c. sour cream",
+        "16 crackers (any kind will work)",
+        "salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cook squash and onion in water until tender. Drain and smash.",
+        "Add butter and 2 cups of cheese. Add eggs, sour cream and",
+        "crackers. Mix well. Add salt and pepper to taste. Place in shallow",
+        "2 quart greased casserole. Top with more cheese and bake,",
+        "uncovered, at 350° for 30 minutes (or until well heated and cheese",
+        "is melted.)"
+      ],
+      "notes": "Get the squash very tender and drain ALL the\nwater out of it or it will be too smooshy!!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "casseroles",
+        "casserole",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "sweet-potato-casserole",
+      "title": "Sweet Potato Casserole",
+      "category": "Casseroles",
+      "description": "Clark family recipe for Sweet Potato Casserole.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "6 8 sweet potatoesÍ¾ baked and peeled",
+        "3/4 c sugar",
+        "2 eggs",
+        "1 tsp vanilla",
+        "3 TBS butter melted",
+        "topping: 1/3 c butter",
+        "topping: 1 c light gown sugar",
+        "topping: 1/3 c self rising flour",
+        "topping: 1 c chopped pecans"
+      ],
+      "instructions": [
+        "Add all ingredients and beat with mixer just till combined. Pour",
+        "into a buttered 9 X 13 pan.",
+        "Mix topping ingredientsÍ¾ mixing in the butter with a pastry cutter.",
+        "Topping should be crumbly.",
+        "Put on top of sweet potatoes.",
+        "Bake on 375° for 20 30 minutes."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "casseroles",
+        "casserole",
+        "vanilla",
+        "potato",
+        "pecan",
+        "sweet"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "talk-talks-squash-casserole",
+      "title": "Talk Talk\"s Squash Casserole",
+      "category": "Casseroles",
+      "description": "Clark family recipe for Talk Talk\"s Squash Casserole.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "2 cups cooked, well drained squash",
+        "1 Egg",
+        "1 Small onion, chopped fine (I cook mine with the squash)",
+        "1 Can Cream of Mushroom soup",
+        "1 Cup Cheese",
+        "1/4 Cup Melted Butter",
+        "1/2 Cup Saltine or Ritz Crackers, crumbled"
+      ],
+      "instructions": [
+        "Mix first 5 ingredients and season to taste with salt and pepper.",
+        "Pour in a casserole dish. Mix melted butter and crackers together",
+        "and sprinkle on top of squash mixture.",
+        "Bake at 350 for approximately 30 minutes."
+      ],
+      "notes": "If you don't have cream of mushroom soup, you\ncan also substitute sour cream and more cheese for a cheesier dish.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "casseroles",
+        "casserole",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "apricot-tenderloin",
+      "title": "Apricot Tenderloin",
+      "category": "Entrees",
+      "description": "Clark family recipe for Apricot Tenderloin.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1/2 stick butter",
+        "1/2 jar apricot jelly",
+        "1 pkg. brown gravy mix",
+        "1 2 pork tenderloins"
+      ],
+      "instructions": [
+        "Melt the butter in a frying pan and brown all sides of the pork",
+        "tenderloin.",
+        "Take pork out and stir in jelly with remaining butter. Put pork back",
+        "in pan and pour this mixture over it. Bake at 400° for 45 minutes.",
+        "Mix gravy according to package and pour over tenderloin and cook",
+        "for another 15 minutes."
+      ],
+      "notes": "This is really good with mashed potatoes and fried\nokra! Love the combination!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "pork"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "beef-brisket",
+      "title": "Beef Brisket",
+      "category": "Entrees",
+      "description": "Clark family recipe for Beef Brisket.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 large beef brisket",
+        "12 oz can of coke",
+        "Lawry's Seasoning Salt"
+      ],
+      "instructions": [
+        "Sprinkle Lawry's Seasoning Salt very liberally over both sides of",
+        "the brisket. Cook at a very high temperature for 1 hour, uncovered.",
+        "(If it's a small brisket, bake at 450°. If it's a fatter one, bake at 475°.",
+        "Take out of oven and pour 1 can of coke over whole brisket. Cover",
+        "tightly with aluminum foil and cook at 275° for 3 hours.",
+        "Take out of oven. Remove all the fat. Cut into small bite sized",
+        "pieces and enjoy with the au jus. Great with rolls."
+      ],
+      "notes": "The first time I tried this, I accidentally bought a\ncorn-beef brisket and it was the wrong thing!! Wasn't too good!!\nGet just a plain beef brisket!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "beef"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "beef-stroganoff",
+      "title": "Beef Stroganoff",
+      "category": "Entrees",
+      "description": "Clark family recipe for Beef Stroganoff.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1/2 cup onions",
+        "1 clove garlic",
+        "1/4 cup butter",
+        "1 lb ground beef",
+        "2 Tbs flour",
+        "2 tsp salt",
+        "1/4 tsp pepper",
+        "1 can cream of mushroom soup",
+        "1 cup sour cream"
+      ],
+      "instructions": [
+        "Brown onions in butter then brown ground beef. Add flour and stir.",
+        "Add soup, garlic, salt and pepper. Cook on low heat for 20",
+        "minutes. Fold in sour cream.",
+        "Serve over buttered noodles."
+      ],
+      "notes": "The onions get really soft, so all you picky people\n(Dannah) won't even know they're in there!!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "beef"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "better-than-take-out-fried-rice",
+      "title": "Better than Take-out Fried Rice",
+      "category": "Entrees",
+      "description": "Clark family recipe for Better than Take-out Fried Rice.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "4 cups cooked rice",
+        "1 cup peas and carrots, frozen",
+        "1 white onion, chopped",
+        "2 cloves garlic, minced",
+        "2 eggs",
+        "3 tablespoons sesame oil",
+        "1/4 cup \"good\" soy sauce"
+      ],
+      "instructions": [
+        "Prepare rice.",
+        "Heat sesame oil in a large skillet on medium heat.",
+        "Add onion, garlic, peas and carrots.",
+        "Stir fry until tender.",
+        "Crack eggs into pan and scramble, mixing throughout vegetables.",
+        "Add rice and soy sauce.",
+        "Add more soy sauce if it seems dry.",
+        "You can add rotisserie chicken to this or serve with Honey",
+        "Teriyaki Chicken."
+      ],
+      "notes": "Make sure eggs are completely cooked with\nvegetables. They will look like scrambled eggs when done.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "ice"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "cajun-turkey-breast",
+      "title": "Cajun Turkey Breast",
+      "category": "Entrees",
+      "description": "Clark family recipe for Cajun Turkey Breast.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 turkey breast",
+        "1 stick butter, melted",
+        "1 cup apple cide vinegar",
+        "1/2 cup oil",
+        "1/4 cup salt",
+        "1/4 cup black pepper",
+        "2 Tablespoons paprika",
+        "1 Tablespoons dried parsley",
+        "1 browning bag."
+      ],
+      "instructions": [
+        "Brush turkey with butter. Place turkey in a browning bag. Mix",
+        "remaining ingredients together and pour over turkey in the bag.",
+        "Bake at 300° for 4 hours."
+      ],
+      "notes": "Don't open the bag the whole cooking time!! It\nwill stay tender that way!\nThis is so good with rolls or as a meat entree. This originated from\nLynn DeLoach.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "turkey"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "chicken-and-dumplings",
+      "title": "Chicken & Dumplings",
+      "category": "Entrees",
+      "description": "Clark family recipe for Chicken & Dumplings.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "2 3 Chicken breasts (If you use bone in chicken, you get a better tasting broth)",
+        "Salt & Pepper to taste"
+      ],
+      "instructions": [
+        "Boil chicken pieces until falling apart.",
+        "Remove chicken and continue to boil broth. Add 1/4 stick butter,",
+        "salt & pepper."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "chicken"
+      ],
+      "image": null
+    },
+    {
+      "id": "chicken-and-rice",
+      "title": "Chicken and Rice",
+      "category": "Entrees",
+      "description": "Clark family recipe for Chicken and Rice.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "8 skinless, boneless, chicken breast",
+        "OR",
+        "1 whole chicken cut up",
+        "1 1/2 cups rice",
+        "1 can cream of chicken soup",
+        "1 envelope of Lipton onion soup mix",
+        "salt and pepper",
+        "water"
+      ],
+      "instructions": [
+        "Mix soup, onion soup mix, rice and 2 cans of water add slowlytogether.",
+        "Pour into 9 X 13 pan and then place chicken pieces on",
+        "top of that. Cover and bake in a 375 oven for about 1 hour. If using",
+        "bone in chicken pieces it might take longer to cook."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "chicken",
+        "ice"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "chicken-pot-pie",
+      "title": "Chicken Pot Pie",
+      "category": "Entrees",
+      "description": "Clark family recipe for Chicken Pot Pie.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "whole chicken",
+        "potatoes cubed",
+        "green peas",
+        "carrots sliced",
+        "fresh corn if available cut off cobb",
+        "butter",
+        "4 TBS SR Flour",
+        "1/2 1 cup milk",
+        "1 cup shredded cheddar cheese",
+        "salt and pepper"
+      ],
+      "instructions": [
+        "Boil chicken until done and let it cool and then shred.",
+        "Boil potatoes and carrots until almost tender and then add peas and",
+        "corn for one minute . Drain and set aside.",
+        "In a large plastic bowl add 2 cups sr flour and 1 cup cheddar",
+        "cheese. Mix until all incorporated. Add a little bit of water if it's",
+        "dry won't come together. Form into a ball and it all holds together.",
+        "On a floured surface roll out the size of your pan.",
+        "In a 9 X 13 pan put chicken on bottom and vegetables on top of",
+        "that.",
+        "In a medium skillet add 4 TBS butter and let it melt. Add 4 TBS of",
+        "sr flour and whisk it in with the butter. Slowly add some chicken",
+        "broth to this to make a \"rue\".",
+        "Add some milk to give it some color and make it a little richer.",
+        "Most of the liquid should be broth. Pour over the top of chicken",
+        "and vegetables. Then add the crust on top of that.",
+        "Bake on 400 for 30 minutes or until it's golden brown on top."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "chicken",
+        "pie",
+        "cheese",
+        "corn",
+        "potato",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "chicken-taco-salad",
+      "title": "Chicken Taco Salad",
+      "category": "Entrees",
+      "description": "Clark family recipe for Chicken Taco Salad.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "2 boneless, skinless breasts",
+        "2 TBS seasoning ( task seasoning or",
+        "Chuck Roast",
+        "3/4 lb. chuch roast",
+        "salt, pepper, garlic powder",
+        "1 medium onion",
+        "worcestershire sauce",
+        "dressing: 3/4 cups Ranch Dressing",
+        "dressing: 1/4 cups Salsa",
+        "dressing: 3 TBS chopped cilantro",
+        "dressing: OR",
+        "dressing: Spicy Ranch Dressing (at grocery)"
+      ],
+      "instructions": [
+        "Season roast as desired, place in baking dish. Quarter onion and",
+        "place around roast, pour 3 to 4 tbsp. worcestershire over roast.",
+        "Cover and bake at 350 degrees 31/2 to 4 hours. Remove meat from",
+        "broth, heat to boiling on stove and add tomato sauce. Heat enough",
+        "to mix well."
+      ],
+      "notes": "Roast is to be pulled or served as chunks. Will not\nslice. Place meat on platter and pour gravy over.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "chicken",
+        "salad",
+        "spicy"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "debbie-turner-chicken",
+      "title": "Debbie Turner Chicken",
+      "category": "Entrees",
+      "description": "Clark family recipe for Debbie Turner Chicken.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1/2 c plain bread crumbs",
+        "1/2 c freshly grated Parmesan cheese",
+        "1/2 tsp sugar",
+        "1/4 tsp cayenne pepper"
+      ],
+      "instructions": [
+        "Mix all together and dredge chicken in it.",
+        "Make sure the chicken is covered well.",
+        "Bake on 375° for 30 minutes."
+      ],
+      "notes": "The White boys LOVE this chicken",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "chicken",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "fried-chicken",
+      "title": "Fried Chicken",
+      "category": "Entrees",
+      "description": "Clark family recipe for Fried Chicken.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "whole chicken, cut up OR chicken strips or breasts",
+        "salt",
+        "pepper",
+        "self rising flour",
+        "vegetable oil",
+        "buttermilk"
+      ],
+      "instructions": [
+        "Put chicken pieces in a bowl and cover with buttermilk.",
+        "In another bowl add 2 cups self rising flour and salt and pepper to",
+        "taste.",
+        "Put chicken pieces in flour one at a time and cover well.",
+        "Heat oil in a frying pan make sure it's very hot!!",
+        "Fry until good and brown on one"
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "chicken"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "funeral-chicken",
+      "title": "Funeral Chicken",
+      "category": "Entrees",
+      "description": "Clark family recipe for Funeral Chicken.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Chicken breasts",
+        "worcestershire sauce",
+        "ranch dressing (bottled)"
+      ],
+      "instructions": [
+        "Pour small amount of sauce into baking dish. Place chicken in",
+        "dish, top with ranch dressing. Bake at 325 degrees for 20 to 25",
+        "minutes (depending on size of chicken). Top with grated cheddar",
+        "cheese and cook 5 to 10 minutes longer till cheese melts."
+      ],
+      "notes": "If chicken is large pieces, I cut them in half\n(lengthwise). You can use chicken tenders but do not overcook.\nWe gave it this name because it was served for a dinner after a\nfuneral and we all liked it, but had no other name for it.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "chicken"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "grilled-honey-teriyaki-chicken",
+      "title": "Grilled Honey-Teriyaki Chicken",
+      "category": "Entrees",
+      "description": "Clark family recipe for Grilled Honey-Teriyaki Chicken.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "6 8 chicken breast",
+        "brine: 2 cups water",
+        "brine: 1 cup light brown sugar",
+        "brine: 1/2 head garlic, unpeeled",
+        "brine: 4 slices fresh ginger root",
+        "brine: 2 TBS kosher salt",
+        "brine: 8 sprigs of thyme",
+        "glaze: 2 cups teriyaki sauce",
+        "glaze: 1/4 cup honey",
+        "glaze: 1 large (1 inch) piece fresh ginger root",
+        "glaze: 1 head garlic, cut in half"
+      ],
+      "instructions": [
+        "Make the brine by putting everything in a plastic bag.",
+        "Add chicken and let it brine for 1 2 hours in refrigerator.",
+        "Preheat grill to medium heat or you can do it in a grill pan.",
+        "Add the chicken to a large mixing bowl and drizzle with olive oil",
+        "and pepper.",
+        "Grill until done.",
+        "Baste with teriyaki glaze for the last 5 minutes.",
+        "Serve with Stir Fried Rice",
+        "GLAZE:",
+        "In a sm saucepan combine teriyaki sauce,",
+        "honey,ginger, garlic. Simmer until rich and slightly reduced."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "chicken"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "leftover-beef-hash",
+      "title": "Leftover Beef Hash",
+      "category": "Entrees",
+      "description": "Clark family recipe for Leftover Beef Hash.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Leftover roast beef",
+        "potatoes",
+        "onion"
+      ],
+      "instructions": [
+        "When you have leftover roast beef, pull or cut into small pieces,",
+        "put in frying pan with small amount of water. Peel and cube",
+        "potatoes for the amount of beef that you have. Don't add too many.",
+        "Add the chopped onion. If you have leftover gravy, add that in too",
+        "for flavor. Cook slowly till potatoes are well done and begin to",
+        "come apart."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "beef",
+        "potato"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "lime-and-cilantro-chicken-salad",
+      "title": "Lime and Cilantro Chicken Salad",
+      "category": "Entrees",
+      "description": "Clark family recipe for Lime and Cilantro Chicken Salad.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "3 ears corn, shucked and grilled",
+        "4 5 boneless skinless chicken breasts, seasoned with salt and pepper, grilled",
+        "and cut into bite size pieces",
+        "1 1/2 cups diced cherry tomatoes",
+        "1 pound mixed baby greens",
+        "2 cups grated Jack cheese",
+        "1/2 cup chopped red bell pepper",
+        "Kosher salt",
+        "Black pepper",
+        "3/4 cups sunflower",
+        "fresh cilantro sprigs for garnish",
+        "dressing: 1/3 cup seasoned rice wine vinegar",
+        "dressing: 1/4 cups fresh lime juice",
+        "dressing: 1 clove garlic, minced",
+        "dressing: 1 tsp pureed chipotle chiles in adobe sauce",
+        "dressing: 2 Tbs honey",
+        "dressing: 1/2 tsp Kosher salt",
+        "dressing: 3/4 cup canola oil",
+        "dressing: 1 cup chopped fresh cilantro stems and leaves"
+      ],
+      "instructions": [
+        "Toss other salad ingredients in a chilled bowl.",
+        "DRESSING:",
+        "blend all ingredients in blender, but add the",
+        "canola oil last in a slow steady stream."
+      ],
+      "notes": "This salad is unbelievable in the summer, with all\nthe fresh vegetable ingredients. You could also substitute grilled\nshrimp for the chicken. I first had this salad at Nordstrom Cafe. It's\nVERY good! People will be impressed!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "chicken",
+        "salad",
+        "cheese",
+        "corn"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "meatloaf",
+      "title": "Meatloaf",
+      "category": "Entrees",
+      "description": "Clark family recipe for Meatloaf.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 lb. ground chuck",
+        "onion soup mix",
+        "A 1 sauce",
+        "Worcestershire sauce",
+        "Heinz 57 sauce",
+        "1 egg",
+        "3 tbsp. quick cooking oatmeal",
+        "garlic powder",
+        "catsup"
+      ],
+      "instructions": [
+        "Mix ground beef, about 1/2 pkg. onion soup mix, 2 tbsp. each of",
+        "the sauces, 1 egg, oatmeal and garlic powder (just sprinkle over",
+        "top). Mix thoroughly (I use my hand, AFTER WASHING",
+        "THOROUGHLY) Make into loaf shape, place in pan and bake 45",
+        "min. to 1 hr. at 350 degrees.",
+        "When done top with catsup (or mixture of catsup and mustard),",
+        "return to over for about 5 minutes."
+      ],
+      "notes": "Chopped green pepper can be added if you like the taste.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "loaf",
+        "bread"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "oven-fried-chicken",
+      "title": "Oven-Fried Chicken",
+      "category": "Entrees",
+      "description": "Clark family recipe for Oven-Fried Chicken.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1/4 c mayonaise",
+        "1 TBS Dijon mustard",
+        "1 tsp dried parsley flakes",
+        "1/4 tsp salt",
+        "1/4 tsp pepper",
+        "1 c multigrain cracker crumbs (20 crackers)",
+        "1.4 c freshly grated Parmesan cheese",
+        "1 1/4 lb chicken strips or breast (6)"
+      ],
+      "instructions": [
+        "Stir together first 6 ingredients in a mixing bowl. Combine cracker",
+        "crumbs with Parm cheese in a shallow dish. Brush chicken with",
+        "mayonnaise mixture, dredge in crumb mixture. Place on a baking",
+        "sheet.",
+        "Bake at 400° for 20 minutes."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "chicken",
+        "cheese"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "pork-loin-with-red-plum-sauce",
+      "title": "Pork Loin with Red Plum Sauce",
+      "category": "Entrees",
+      "description": "Clark family recipe for Pork Loin with Red Plum Sauce.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "5 to 8 lb pork loin",
+        "Garlic salt/powder",
+        "Onion salt",
+        "2 Tbsp butter",
+        "3/4 chopped onion",
+        "1 cup red plum jelly",
+        "1/2 cup brown sugar",
+        "2/3 cup water",
+        "1 Tbsp lemon juice",
+        "1/4 cup Worcestershire sauce",
+        "2 tsp yellow mustard"
+      ],
+      "instructions": [
+        "Preheat oven to 325°. Sprinkle pork with garlic and onion saltsÍ¾",
+        "place fat side up in roasting pan. Cook for 25 minutes per pound.",
+        "Melt butter, add onion, and cook until tender. Add remaining",
+        "ingredientsÍ¾ simmer for 15 minutes.",
+        "Pour 1/2 the sauce over pork meat. Cook an additional 20 30",
+        "minutes. Serve extra sauce on the side."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "pork",
+        "sauce"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "roast-beef",
+      "title": "Roast Beef",
+      "category": "Entrees",
+      "description": "Clark family recipe for Roast Beef.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "3/4 lb. beef roast (I prefer rump, bottom round, sirloin tip or eye of round)",
+        "l Pkg. ranch dressing mix",
+        "salt, pepper, garlic powder and cornstarch"
+      ],
+      "instructions": [
+        "Season to taste with salt, pepper and garlic powder. Place roast in",
+        "dutch over or large pan, add 1/2 cup water and cover. Cook for",
+        "approx. 3 and 1/2 hrs. at 350 degrees. Remove roast from pan, heat",
+        "broth to boiling, add approx. 1/2 of dressing mix and thicken to",
+        "desired consistency with cornstarch."
+      ],
+      "notes": "If broth is too strong for gravy, water can be added to taste.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "beef",
+        "corn"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "salmon-patties",
+      "title": "Salmon Patties",
+      "category": "Entrees",
+      "description": "Clark family recipe for Salmon Patties.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 can salmon",
+        "3 Tbs flour",
+        "1 egg"
+      ],
+      "instructions": [
+        "Empty salmon into bowl. Remove skin and as many bones as you",
+        "can. Squish up the tiny ones and you'll never know they're there.",
+        "(Great source of calcium!) Mix the salmon with 1 egg and flour.",
+        "Make into pat tie and fry in a small amount of oil."
+      ],
+      "notes": "These are so quick and easy! And good for you!\nMee Maw always served them with \"ho cakes.\" Just put cornmeal\nin a bowl, add some salt and water, making a runny paste\nconsistency. Pour onto hot, greased frying pan and fry up little\npatties of cornbread. Yum Yum!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "salmon"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "spaghetti-and-meatballs",
+      "title": "Spaghetti and Meatballs",
+      "category": "Entrees",
+      "description": "Clark family recipe for Spaghetti and Meatballs.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 lb. ground round 1 box spaghetti",
+        "1 small can tomato paste",
+        "1 small can tomato sauce",
+        "1 envelope of dry sauce mix",
+        "garlic powder",
+        "worchestershire sauce",
+        "A 1 sauce",
+        "parsley",
+        "basil",
+        "1 tsp sugar"
+      ],
+      "instructions": [
+        "Heat large skillet.",
+        "In a medium bowl add ground round, 3 TBS of dry sauce mix,",
+        "garlic powder, basil, parsley,steak sauces and mix well.",
+        "Form meat into meatballs and brown in skillet. Drain on paper",
+        "towels and pour out drippings and add a little water to deglaze pan",
+        "and add to sauce pan.",
+        "In a different medium sauce pan add tomato sauce,paste and",
+        "remaining dry sauce mix. Add garlic, basil,",
+        "parsley,worchestershire, A1 and 1 tsp sugar and salt and pepper to",
+        "taste. Simmer until noodles are done and serve over noodles."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "stuffed-peppers",
+      "title": "Stuffed Peppers",
+      "category": "Entrees",
+      "description": "Clark family recipe for Stuffed Peppers.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "2 green peppers",
+        "1/2 lb. ground chuck",
+        "Worcestershire sauce",
+        "A 1 Sauce",
+        "Heinz 57 sauce",
+        "garlic powder",
+        "oatmeal (I like to use quick cooking)",
+        "1 egg"
+      ],
+      "instructions": [
+        "Cut peppers in half and take out seed and pulp. Mix chuck (I pinch",
+        "off enough meat that I think will fill each pepper)., 1 egg yolk,",
+        "sauces (small amt. of each), 2 tbsp. oatmeal, season with garlic",
+        "powder, salt and pepper to taste. Press mixture into pepper halves",
+        "and bake uncovered in 350 degree oven for approx. 30/45 minutes",
+        "(depending on oven). You can check of doneness by inserting",
+        "knife. Top the meat with catsup, return to oven and let heat about 5",
+        "minutes. Serve warm."
+      ],
+      "notes": "If you prefer, cooked rice can be used instead of\noatmeal, but you would want to use probably about 1 cup.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "turkey-and-dressing",
+      "title": "Turkey and Dressing",
+      "category": "Entrees",
+      "description": "Clark family recipe for Turkey and Dressing.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Turkey (approx. 15 lbs.)",
+        "Self rising cornmeal",
+        "Buttermilk",
+        "Onion (Med.)",
+        "1 giant loaf white bread (can be store brand)",
+        "Eggs",
+        "Butter",
+        "Cornstarch"
+      ],
+      "instructions": [
+        "Remove packaged parts in neck and/or rear (I wash my turkey)",
+        "Dry turkey on outside and season with salt, pepper and garlic",
+        "powder (as desired). Rub turkey with butter (at room temp.) I bake",
+        "mine in a roaster pan with cover, but any large pan can be used and",
+        "tent made from foil for cover. Add 1 cup water to pan. Bake at 350",
+        "degrees or according to instructions on wrapper. Will take approx.",
+        "3 to 3 1/2 hrs. Don't overcook.",
+        "After baking about 2 hrs. drain broth from pan and save for",
+        "dressing.",
+        "Broth from turkey makes best dressing. If more meat is needed you",
+        "can also bake a turkey breast.",
+        "DRESSING:",
+        "Mix 3 cups self rising cornmeal mix, 1 med. chopped onion and 6",
+        "eggs with enough buttermilk to make it consistancy of cornbread.",
+        "Bake at 350 degrees till brown.",
+        "Crumble loaf bread and cornbread in large pan, add broth and mix",
+        "well.(I",
+        "usually boil chicken parts for extra broth (backs make good broth).",
+        "Mix enough broth till dressing is very moist. Bake 350 degrees till",
+        "brown.",
+        "(Save approx. 1 cup of dressing for gravy)",
+        "GRAVY:",
+        "Use remaining broth for gravy. Add dressing mixture and 3 boiled",
+        "eggs",
+        "(chopped). Boil gravy mixture enough to get dressing mixed in and",
+        "comes to a boil. Add enough cornstarch to thicken as desired.",
+        "Of course, you want to serve with cranberry sauce."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "entrees",
+        "turkey",
+        "corn"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "almond-cake",
+      "title": "Almond Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Almond Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 cup sugar",
+        "1 cup flour",
+        "2 eggs, beaten",
+        "1/2 cup butter melted",
+        "1 tsp. almond extract",
+        "slivered almonds"
+      ],
+      "instructions": [
+        "Preheat oven to 350.",
+        "combine all ingredients together and mix with fork.",
+        "Pour into 8 in square pan and cover with slivered almonds.",
+        "Bake for 25 30 minutes"
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "apple-crisp",
+      "title": "Apple Crisp",
+      "category": "Desserts",
+      "description": "Clark family recipe for Apple Crisp.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "5 pounds McIntosh or Macoun apples",
+        "2 tablespoons freshly squeezed lemon juice",
+        "1/2 cup granulated sugar",
+        "topping: 1 1/2 cups flour",
+        "topping: 3/4 cup granulated sugar",
+        "topping: 3/4 cup light brown sugar, packed",
+        "topping: 1/2 teaspoon kosher salt",
+        "topping: 1 cup oatmeal",
+        "topping: 1/2 pound cold unsalted butter, diced"
+      ],
+      "instructions": [
+        "Preheat the oven to 350 degrees F. Butter a 9 by 14 by 2 inch oval",
+        "baking dish.",
+        "Peel, core, and cut the apples into large wedges. Combine the",
+        "apples with the juices, sugar. Pour into the dish.",
+        "Place the crisp on a sheet pan and bake for 1 hour until the top is",
+        "brown and the apples are bubbly. Serve warm.",
+        "TOPPING:",
+        "combine the flour, sugars, salt, oatmeal, and",
+        "cold butter in the bowl of an electric mixer fitted with the paddle",
+        "attachment. Mix on low speed until the mixture is crumbly and the",
+        "butter is the size of peas. Scatter evenly over the apples. (Or you",
+        "can use your hands...mess!)"
+      ],
+      "notes": "Serve warm with vanilla ice cream.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "aunt-bettys-chess-cake",
+      "title": "Aunt Betty\"s Chess Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Aunt Betty\"s Chess Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 box yellow cake mix",
+        "1 stick butter",
+        "1 egg",
+        "1 box confectioner's sugar",
+        "1, 8 oz cream cheese",
+        "3 eggs"
+      ],
+      "instructions": [
+        "Mix first 3 ingredients together and press into a 9 X 13 pan.",
+        "Mix next 3 ingredients and pour on top of the other and bake at",
+        "350° for 30 40 minutes."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "cheese",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "aunt-lucilles-brownies",
+      "title": "Aunt Lucille\"s Brownies",
+      "category": "Desserts",
+      "description": "Clark family recipe for Aunt Lucille\"s Brownies.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "3 Tbs. cocoa",
+        "1 cup sugar",
+        "1 stick butter",
+        "1 tbs. white karo",
+        "2 eggs",
+        "3/4 cup flour (self rising)",
+        "1 tsp. vanilla flavoring",
+        "1 cup pecan (chopped)"
+      ],
+      "instructions": [
+        "Melt butter and dissolve cocoa, let cooland add other ingredients,",
+        "adding pecan last. Bake in smaller baking dish (greased) at 350",
+        "degrees for 30 to 35 minutes. Can be iced if desired, but delicious",
+        "without."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "brownies",
+        "vanilla",
+        "pecan",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "baked-apples",
+      "title": "Baked Apples",
+      "category": "Desserts",
+      "description": "Clark family recipe for Baked Apples.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Apples of your choice",
+        "sugar",
+        "butter"
+      ],
+      "instructions": [
+        "Peel and core apples and place in a shallow pan.",
+        "Put 1/2 tsp butter into each apple and sprinkle with sugar.",
+        "Bake 350° for about 30 minutes."
+      ],
+      "notes": "You can add any spice to these that you likecinnamon, nutmeg, all spice.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "banana-cake",
+      "title": "Banana Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Banana Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "3 cups sugar",
+        "1 1/2 cups milk",
+        "1/2 stick butter",
+        "3 bananas"
+      ],
+      "instructions": [
+        "Mix together the first 3 ingredients and bring to a boil.",
+        "While it's getting hot, smash 3 bananas and add to boiling mixture.",
+        "Bring back to a boil.",
+        "Bake either the Yellow Cake mix or a bought yellow cake mix.",
+        "Poke holes in each layer (or sheet cake) and pour the sugary",
+        "mixture all over the cake."
+      ],
+      "notes": "The bananas will turn black and look yucky. To\ndeter that from happening, eat it all the first night you make it! :)\nThis is a recipe and half. This is good if using 3 layers of cake, but\nfor a sheet cake only a single recipe is necessary.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "banana",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "boston-creme-pie-cake",
+      "title": "Boston Creme Pie/Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Boston Creme Pie/Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Devils Food Cake mix mixed per instructions on box",
+        "Fudge Sauce ( see Lisa's in cookbook)",
+        "filling: 1 c sugar",
+        "filling: 2 eggs",
+        "filling: 3 TBS flour",
+        "filling: 2 c milk",
+        "filling: 1 tsp vanilla"
+      ],
+      "instructions": [
+        "Bake cake mix in two cake pans and cool.",
+        "Make fudge sauce and set aside",
+        "Assemble cake by putting one layer on bottom of cake plate.",
+        "Pour pudding on top of that.",
+        "Add the second layer on top.",
+        "Serve with fudge sauce on top and a dollop of whip cream on top",
+        "of that!",
+        "FILLING:",
+        "Mix sugar, flour and eggs and a little milk until smooth.",
+        "Add remaining milk slowly until all incorporated.",
+        "Cook on medium heatÍ¾ stirring constantly until thick , like pudding.",
+        "Take off heat and add vanilla and butter. Whisk until butter is melted."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "pie",
+        "vanilla",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "caramel-cake",
+      "title": "Caramel Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Caramel Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Boxed Cake Mix Yellow or French Vanilla",
+        "frosting: 3 Cups sugar take 3 Tbsp from this and place in a small skillet",
+        "frosting: 1 1/2 sticks butter",
+        "frosting: 3/4 cup milk",
+        "frosting: 2 Tbsp light Karo syrup",
+        "frosting: 1/2 tsp vanilla"
+      ],
+      "instructions": [
+        "Bake cake according to instructions on box using 3 cake pans. DO",
+        "NOT over bake cake will be dry!",
+        "If instructions say bake for 20 minutes, check at 15 minutes just to",
+        "be safe. Cool before icing.",
+        "FROSTING:",
+        "Combine all ingredients except vanilla and 3 Tbsp sugar. Stir over",
+        "medium heat until sugar dissolves and butter melts.",
+        "When butter is almost melted, begin \"burning\" the 3 Tbsp of sugar",
+        "in the small skillet over med high heat. The sugar will begin to",
+        "melt around the edges and as you stir with a flat spatula, it may",
+        "form hard balls of sugar. Continue to stir it until it melts",
+        "completely and begins to turn brown. When it becomes a dark",
+        "amber color AND the other pan is boiling rapidly, add the caramel",
+        "to the boiling mixture, stirring constantly. When it has mixed",
+        "completely, stop stirring and continue to boil for 1 minute.",
+        "Remove from heat and add vanilla. Pour into a bowl and beat by",
+        "hand or on lowest speed with mixer. It will have a silky shine to it",
+        "when you start. As it cools, it begins to thicken and will loose that",
+        "shine. May take up to 30 minutes by hand and 15 -20 minutes with",
+        "mixer for it to be ready. That is when you should start icing the",
+        "cake layers. Makes a 3 layer stacked cake or you can make a sheet",
+        "cake and pour icing on top."
+      ],
+      "notes": "Practice makes perfect on this icing. But don't\nworry, the Clark family will be glad to test every cake you make!\nDesserts",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "vanilla",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "carrot-cake",
+      "title": "Carrot Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Carrot Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "2 Cups Plain Flour",
+        "2 Tsp cinnamon",
+        "1 Tsp Baking Soda",
+        "2 Cups Sugar",
+        "1/2 Cup Chopped Pecans",
+        "3 Cups Carrots(Shredded or Pureed)",
+        "1 Cup Canola Oil",
+        "3 Eggs"
+      ],
+      "instructions": [
+        "Preheat oven to 350°.",
+        "Cream together sugar, eggs, cinnamon, soda. Add the rest of the",
+        "ingredients and mix until creamy.",
+        "Spray 3 round baking pans with Pam and pour ingredients equally",
+        "into all 3. bake for 30 minutes.",
+        "Frost with a cream cheese icing with pecans. (See Cream Cheese",
+        "Frosting)"
+      ],
+      "notes": "Cake is done when you press the top of it and it\nsprings back up. Or, you can stick a toothpick or knife in it and if it\ncomes out clean, it's done!!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "pecan",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "chess-cake",
+      "title": "Chess Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Chess Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 box yellow cake mix",
+        "3 egg",
+        "1 stick butter (Melted)",
+        "1 8oz. cream cheese",
+        "1 box confectioners sugar"
+      ],
+      "instructions": [
+        "Mix cake mix, 1 egg and butter. Press mixture into 13 X 9 baking",
+        "dish",
+        "Mix cream cheese (at room temp.), conf. sugar and 2 eggs and",
+        "pour on top of cake mixture. Bake at 350 degrees for 40 to 45",
+        "minutes. When cool, cut into squares and serve."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "cheese",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "chocolate-cake",
+      "title": "Chocolate Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Chocolate Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "Cake mix Yellow or French Vanilla",
+        "3 cups sugar",
+        "3 Tbsp cocoa",
+        "1 1/2 sticks butter",
+        "3/4 cup milk",
+        "2 Tbsp white Karo syrup",
+        "1/2 tsp vanilla"
+      ],
+      "instructions": [
+        "Bake cake according to instructions on box using 3 cake pans. DO",
+        "NOT over bake cake will be dry!",
+        "If instructions say bake for 20 minutes, check at 15 minutes just to",
+        "be safe. Cool before icing.",
+        "Combine all ingredients except vanilla. Stir over medium heat until",
+        "sugar dissolves and butter melts. Bring to a rapid boil and continue",
+        "to boil for 1 1/2 minutes. Remove from heat and add vanilla. Pour",
+        "into a bowl and beat by hand or on lowest speed with mixer. It will",
+        "have a silky shine to it when you start. As it cools, it begins to",
+        "thicken and will loose that shine. That is when you should start",
+        "icing the cake layers. Makes a 3 layer stacked cake or you can",
+        "make a sheet cake and pour icing on top."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "vanilla",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "chocolate-delight",
+      "title": "Chocolate Delight",
+      "category": "Desserts",
+      "description": "Clark family recipe for Chocolate Delight.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 1/2 cups plain flour",
+        "1 1/2 stick butter, softened",
+        "1 1/2 cup pecans, chopped",
+        "1 cup powdered sugar",
+        "8 oz cream cheese",
+        "Cool whip",
+        "2 small instant chocolate puddings",
+        "3 cups milk"
+      ],
+      "instructions": [
+        "Mix together the flour, butter and pecans. The mixture will be used",
+        "to press into the bottom of a rectangular glass baking dish, to form",
+        "a crust. Bake at 350° for 30 minutes. Let cool.",
+        "Mix sugar, cream cheese and 1/2 container of Cool whip together",
+        "and spread on top of cooled crust.",
+        "Mix pudding and milk together, allowing it to thicken. Pour on top",
+        "of sugar mixture.",
+        "Top with Cool Whip."
+      ],
+      "notes": "This is a great dessert when you need to serve a lot\nof people. Very little cooking involved... just takes time to do the\ndifferent layers.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "chocolate",
+        "cheese",
+        "pecan"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "chocolate-sheet-cake",
+      "title": "Chocolate Sheet Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Chocolate Sheet Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "2 cups plain flour Icing",
+        "2 cups sugar 1/2 cup butter 1 box conf sugar",
+        "2 sticke of butter 2 TBS cocoa 1 tsp vanilla",
+        "4 TBS cocoa 1/4 cup milk",
+        "1 cup water Melt butter and cocoa then add milk,",
+        "1/2 cup buttermilk",
+        "frosting: 8 oz cream cheese",
+        "frosting: 1/2 stick butter (can be cut to 1/4 stick butter)",
+        "frosting: 1 box powdered sugar",
+        "frosting: 1 tsp vanilla",
+        "frosting: 1/2 cup chopped pecans (optional)"
+      ],
+      "instructions": [
+        "Add chocolate chips.",
+        "Bake for 30 minutes",
+        "FROSTING:",
+        "Put cream cheese & butter in bowl and mix until smoothÍ¾ add",
+        "vanilla. Mix in sugar in small amounts until creamy. Can add milk,",
+        "1 tsp at a time, until creamy."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "vanilla",
+        "cheese",
+        "pecan",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "cream-cheese-pound-cake",
+      "title": "Cream Cheese Pound Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Cream Cheese Pound Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "8 oz. cream cheese",
+        "butter",
+        "sugar",
+        "salt",
+        "vanilla flavoring",
+        "eggs",
+        "cake flour"
+      ],
+      "instructions": [
+        "Cream together 1 8oz. cream cheese (room temp.), 3 sticks butter",
+        "(room temp) and 3 cups sugar till very creamy. Add dash of salt",
+        "(very little) and 1 1/2 tsp. vanilla, mix, then add 6 eggs alternately",
+        "with 3 cups sifted cake flour. Pour into tube pan.",
+        "Bake at 325 degrees for 1hr and 20 minutes."
+      ],
+      "notes": "Your oven might cook cake quicker. If you check\nit for doneness, do so very carefully so it will not fall.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "vanilla",
+        "cheese",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "divinity-fudge",
+      "title": "Divinity Fudge",
+      "category": "Desserts",
+      "description": "Clark family recipe for Divinity Fudge.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "3 Cups Sugar",
+        "1/2 Cup Light Corn Syrup",
+        "2/3 Cup Water",
+        "2 Egg Whites",
+        "1/8 Tsp Salt",
+        "1 Tsp Vanille",
+        "1 Cup Pecan pieces"
+      ],
+      "instructions": [
+        "Boil sugar, corn syrup and water together until it reach hard ball",
+        "stage (250°)",
+        "Beat egg whites and salt at high speed for 3 minutes. Pour syrup",
+        "mixture slowly into the beaten whites while still beating at high",
+        "speed. Continue beating until mixture forms a peak when beater is",
+        "raised. (Sometimes this is 10 minutes or longer. Test a spoonful on",
+        "waxed paper and see if it holds a form, no longer runny. Keep",
+        "beating if still runny.) Add nuts and vanilla and drop on waxed",
+        "paper."
+      ],
+      "notes": "We used to LOVE to have Nonie come and visit\nus. She was a very industrious woman... could do anything (like\nLisa)! We always made Divinity Fudge with her... if it wasn't\nraining! She said you can't make fudge when it's raining because it\nwon't get thick with all the humidity in the air.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "fudge",
+        "corn",
+        "pecan",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "double-chocolate-coca-cola-cake",
+      "title": "Double Chocolate Coca Cola Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Double Chocolate Coca Cola Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 cup Coca Cola (real thing, not diet)",
+        "1/2 cup oil",
+        "1 stick butter",
+        "3 Tablespoon cocoa",
+        "2 cups sugar",
+        "2 cups flour",
+        "1/2 teaspoon salt",
+        "2 eggs",
+        "1/2 cup buttermilk",
+        "1 teaspoon baking soda",
+        "1 teaspoon vanilla",
+        "frosting: 1 stick butter",
+        "frosting: 3 Tablespoon cocoa",
+        "frosting: 6 Tablesppon of cream or milk",
+        "frosting: 1 teaspoon vanilla extract",
+        "frosting: 3 3/4 cups confectioner's sugar"
+      ],
+      "instructions": [
+        "In a saucepan, mix Coca Cola, oil, butter and cocoa and bring to a",
+        "boil. In another bowl, combine the sugar, flour and salt. Pour the",
+        "boiling Cola mixture over the flour mixture and beat well. Add the",
+        "eggs, buttermilk, soda and vanilla and beat well. Pour mixture into",
+        "a greased and floured 13 x 9 inch baking pan and bake at 350",
+        "degrees or 20 to 25 minutes. Remove pan. Cool for about 10",
+        "minutes before frosting.",
+        "FROSTING:",
+        "In a saucepan, combine the butter, cocoa, and milk. Heat",
+        "until the butter melts. Beat in the remaining ingredients and spread",
+        "on the cake while it's still warm. Enjoy!"
+      ],
+      "notes": "Very moist, rich and yummy!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "vanilla",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "dukes-mayonnaise-chocolate-chocolate-cake",
+      "title": "Duke\"s Mayonnaise Chocolate Chocolate Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Duke\"s Mayonnaise Chocolate Chocolate Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "6 Tbs unsweetened cocoa",
+        "3 cups all purpose flour",
+        "1 Tbs baking soda",
+        "1 1/2 cups sugar",
+        "1 1/2 cups Duke's Mayonnaise",
+        "1 1/2 tsp vanilla extract",
+        "1 1/2 cups cold water",
+        "icing: 1 cup butter, softened",
+        "icing: 1 cup cocoa",
+        "icing: 1 tsp vanilla extract",
+        "icing: 5 6 cups powdered sugar",
+        "icing: 6 or more Tbs milk"
+      ],
+      "instructions": [
+        "Preheat oven to 350°, grease and flour (or spray Pam) 3 cake pans.",
+        "Sift cocoa, flour, baking soda, salt and sugar into a medium bowl,",
+        "mix well. Combine mayo, vanilla and water in an electric mixer at",
+        "low speed. Once smooth, slowly add in dry mixture until just",
+        "incorporated (DO NOT OVERMIX!). Pour batter into cake pans",
+        "and bake for 30 minutes or until done. Cool on wire racks and",
+        "frost.",
+        "ICING:",
+        "In the bowl of an electric mixer, beat butter and cocoa with whisk",
+        "attachment until smooth. Add vanilla. Add powdered sugar",
+        "alternately with milk until icing reaches a spreadable consistency.",
+        "(You may not need all 6 cups of usgar or 6 cups of milk)"
+      ],
+      "notes": "This make a VERY rich chocolate/chocolate cake.\nWhat could be better than that?!?",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "vanilla",
+        "sweet",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "easy-cobbler",
+      "title": "Easy Cobbler",
+      "category": "Desserts",
+      "description": "Clark family recipe for Easy Cobbler.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 cup sugar",
+        "1 cup milk",
+        "1 cup self rising flour",
+        "1 stick butter",
+        "any kind of fruit strawberry, peach, blackberry, etc"
+      ],
+      "instructions": [
+        "Preheat oven to 350°.",
+        "Melt stick of butter in a glass rectangular baking dish. Take out of",
+        "oven (wear oven mits... yes, I've forgotten before!).",
+        "Mix first three ingredients and pour over melted butter. Sprinkle",
+        "the fruit over all the ingredients. Pour 1 cup of water over",
+        "everything. If you like it really sweet, you could sprinkle more",
+        "sugar on top.",
+        "Cook for 45 minutes and if it needs more browning, turn the heat",
+        "up to 400 and watch it until it's brown."
+      ],
+      "notes": "This is so easy and so yummy. Nana makes it with\nstrawberries, but I like it with peaches and ICE CREAM!!!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cobbler",
+        "strawberry",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "french-silk-chocolate-pie",
+      "title": "French Silk Chocolate Pie",
+      "category": "Desserts",
+      "description": "Clark family recipe for French Silk Chocolate Pie.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1/2 cup butter, room temperature",
+        "3/4 cup white sugar",
+        "2 (1 oz) squares unsweetened baking chocolate, melted and cooled",
+        "1 tsp vanilla extract",
+        "2 eggs",
+        "1 prepared 8 inch pastry shell, baked and cooled"
+      ],
+      "instructions": [
+        "Cream butter in a mixing bowl.",
+        "Gradually beat in the sugar with an electric mixer until light",
+        "colored and well blended.",
+        "Stir in the thoroughly cooled chocolate and vanilla extract.",
+        "Add the eggs, one at a time, beating 5 minutes on medium speed",
+        "after each addition.",
+        "Spoon the chocolate filling into a cooled, baked pie shell.",
+        "Refrigerate at least 2 hours before serving."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "pie",
+        "chocolate",
+        "vanilla",
+        "sweet",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "german-chocolate-brownies",
+      "title": "German Chocolate Brownies",
+      "category": "Desserts",
+      "description": "Clark family recipe for German Chocolate Brownies.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1, 14 oz. bag of caramels",
+        "2/3 cup evaporated milk divide into 1/3 cups",
+        "Box of german chocolate cake",
+        "3/4 cup soft butter",
+        "1, 6oz chocolate chips"
+      ],
+      "instructions": [
+        "Combine caramels and 1/3 cup eval milk and melt in microwave.",
+        "Combine cake mix, milk and butter.",
+        "Beat until it holds together.",
+        "Mix in nuts.",
+        "Press into a greased 9 X 13 pan. Bake at 350° for 6 minutes.",
+        "Sprinkle chocolate chips on top and then cover with caramel",
+        "mixture.",
+        "Bake 350° for 17 20 minutes.",
+        "Let them cool before you try to cut."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "brownies",
+        "chocolate",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "german-chocolate-cake",
+      "title": "German Chocolate Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for German Chocolate Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 pkg. (4oz) Bakers German Baking Chocolate",
+        "1/2 c water",
+        "2 c flour",
+        "1 tsp baking soda",
+        "1/4 tsp salt",
+        "1 cup (2 sticks) butter",
+        "2 cups sugar",
+        "4 egg yolks",
+        "1 tsp vanilla",
+        "1 c buttermilk",
+        "4 egg whites",
+        "icing: 1 can (12 oz) evaporated milk",
+        "icing: 1 1/2 c sugar",
+        "icing: 3/4 c butter",
+        "icing: 4 egg yolks,slightly beaten",
+        "icing: 1 1/2 tsp vanilla",
+        "icing: 1 pkg (7oz) frozen coconut",
+        "icing: 1 c chopped pecans"
+      ],
+      "instructions": [
+        "Heat oven to 350° Grease and flour thee 9 in round cake pans",
+        "Microwave chocolate and water in large bowl on high until meltedstir",
+        "until melted",
+        "Mix flour,baking soda,and salt set aside.",
+        "Beat butter and sugar in large bowl with mixer until light and",
+        "fluffy. Add egg yolks, 1 at a time, beating well after each addition.",
+        "Stir in chocolate mixture and vanilla. Add flour mixture alternately",
+        "with buttermilk, beating after each addition.",
+        "Beat egg whites in another bowl until stiff peaks form. Gently fold",
+        "into batter.",
+        "Pour into pans.",
+        "Bake 30 minutes or until done. Cool for 15 minutes before",
+        "removing from pan.",
+        "ICING:",
+        "Stir milk, sugar, butter, egg yolks and vanilla in large saucepan.",
+        "Stirring constantly, cook on med heat 12 minutes or until thickened",
+        "and golden brown. Remove from heat.",
+        "Add coconut and pecans. Cool and then spread on cake."
+      ],
+      "notes": "The cake is better if you make 1 1/2 recipes of the icing.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "chocolate",
+        "vanilla",
+        "pecan",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "haystacks",
+      "title": "Haystacks",
+      "category": "Desserts",
+      "description": "Clark family recipe for Haystacks.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "12 oz butterscotch morsels",
+        "1/2 cup peanut butter",
+        "6 oz chow mein noodles"
+      ],
+      "instructions": [
+        "Melt butterscotch and peanut butter in microwave. Fold in chow",
+        "mein noodles. Spoon out onto waxed paper."
+      ],
+      "notes": "These are so easy and people think you spent a lot of time making them!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "hot-fudge-sauce",
+      "title": "Hot Fudge Sauce",
+      "category": "Desserts",
+      "description": "Clark family recipe for Hot Fudge Sauce.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 (14 oz) can sweetened condensed milk",
+        "4 (1 oz) squares semisweet chocolate",
+        "2 tbsp butter (no substitutes)",
+        "1 tsp vanilla extract"
+      ],
+      "instructions": [
+        "In a heavy saucepan, combine the condensed milk, chocolate, and",
+        "butter.",
+        "Cook and stir over medium low heat until chocolate is melted.",
+        "Remove from heat, stir in vanilla."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "sauce",
+        "fudge",
+        "chocolate",
+        "vanilla",
+        "sweet",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "ice-cream",
+      "title": "Ice Cream",
+      "category": "Desserts",
+      "description": "Clark family recipe for Ice Cream.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "2 cans Sweetened Condensed Milk",
+        "1 Pint Half and Half",
+        "1 tsp vanilla",
+        "Milk to fill approximately 1/2 gallon",
+        "(optional) Chocolate syrup",
+        "(optional) Milky Way candy bars",
+        "(optional) Oreo Cookies",
+        "(optional) Peaches",
+        "(optional) Strawberries"
+      ],
+      "instructions": [
+        "In blender or food processor, add condensed milk, vanilla and half",
+        "and half and mix well. Pour into Ice Cream canister and fill to line",
+        "with milk. Put canister in the churn and add layers of ice and ice",
+        "cream salt.",
+        "optional:",
+        "Add chocolate syrup to taste after adding milk.",
+        "Melt Milky Way bars in microwave and add to canister before",
+        "adding the milk. Stir well to mix in mixture.",
+        "Add Oreo cookies crumbled before adding milk. Mix well before",
+        "churning.",
+        "Add peaches, strawberries or other fruits before adding milk.",
+        "Chop/smash fruit and add sugar to taste before adding to mixture."
+      ],
+      "notes": "There's nothing better than a cup of homemade ice\ncream on a hot Sunday afternoon!!!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "ice",
+        "chocolate",
+        "vanilla",
+        "sweet"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "italian-cream-cake",
+      "title": "Italian Cream Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Italian Cream Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 stick butter",
+        "1/2 cup shortening",
+        "2 cups sugar",
+        "5 egg yolks",
+        "2 cups plain flour",
+        "1/2 tsp salt",
+        "1 tsp baking soda",
+        "1 cup buttermilk",
+        "1 tsp vanilla",
+        "1 small can angel flake coconut (I like frozen coconut better)",
+        "1 cup chopped pecans",
+        "5 egg whites, stiffly beaten"
+      ],
+      "instructions": [
+        "Cream butter & shorteningÍ¾ add sugar & beat until mixture is",
+        "creamy. Add egg yolks & beat well. Combine flour, salt, soda &",
+        "add to creamed mixture alternately with buttermilk. Stir in vanilla.",
+        "Add coconut (chopped fine in food processor) & chopped pecans.",
+        "Fold in stiffly beaten egg whites. Pour into 3 greased & floured",
+        "cake pans.",
+        "Bake @ 350° for 20 25 minutes *important not to overcook",
+        "layers. Check by sticking knife/toothpick in middle of cake after",
+        "20 minutes. If it comes out clean, cake is done. If not check often.",
+        "Cool & frost with Cream Cheese Frosting."
+      ],
+      "notes": "Aunt Madonna makes this cake using a white cake\nmix (gasp!) and adds the coconut and pecans. Much easier and\npretty close to the REAL thing!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "vanilla",
+        "pecan",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "lemon-yogurt-cake",
+      "title": "Lemon Yogurt Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Lemon Yogurt Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 1/2 c all purpose flour",
+        "2 tsp baking powder",
+        "1/2 tsp salt",
+        "1 c plain whole milk yogurt",
+        "1 1/3 c sugar, divided",
+        "3 large eggs",
+        "2 tsp grated lemon zest",
+        "1/2 tsp vanilla extract",
+        "1/2 c veg oil",
+        "1/3 c freshly squeezed lemon juice",
+        "glaze: 1 c confectioner's sugar",
+        "glaze: 2 TBS freshly squeezed lemon juice"
+      ],
+      "instructions": [
+        "Preheat oven to 350°",
+        "Grease and flour a loaf pan.",
+        "Sift together the flour, baking powder, and salt into a bowl.",
+        "In another bowl, whisk together the yogurt, 1 cup sugar, the eggs,",
+        "zest and vanilla.",
+        "Slowly whisk the dry ingredients into the wet ingredients.",
+        "Fold the vegetable oil into the batter, making sure it's all",
+        "incorporated.",
+        "Pour the batter into the prepared pan and bake for about 50",
+        "minutes or until done.",
+        "Meanwhile, cook the 1/3 cup lemon juice and 1/3 cup sugar until",
+        "sugar dissolves.",
+        "While the cake is still warm, pour the mixture over it and let it",
+        "soak in."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "vanilla",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "lisas-hot-fudge-sauce",
+      "title": "Lisa\"s Hot Fudge Sauce",
+      "category": "Desserts",
+      "description": "Clark family recipe for Lisa\"s Hot Fudge Sauce.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 cup sugar",
+        "3 tbsp cocoa",
+        "1/4 stick butter",
+        "1/2 cup milk",
+        "1 tsp vanilla"
+      ],
+      "instructions": [
+        "Mix sugar, cocoa & milk in panÍ¾ add butter. Stir over low med",
+        "heat, allowing sugar mixture to melt. Bring to a boil and boil",
+        "without stirring for 1 1/2 minutes. Remove from heat and add",
+        "vanilla.",
+        "Can be stored in air tight container in refrigerator for 3 5 days."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "sauce",
+        "fudge",
+        "vanilla",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "mama-clarks-pecan-pie",
+      "title": "Mama Clark\"s Pecan Pie",
+      "category": "Desserts",
+      "description": "Clark family recipe for Mama Clark\"s Pecan Pie.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 Cup Sugar",
+        "1 Cup Dark Karo",
+        "2 eggs",
+        "1/2 Stick Butter (melted)",
+        "1 Tbs. Flour",
+        "1 Cup Pecan"
+      ],
+      "instructions": [
+        "Preheat oven to 350°. Cream sugar, flour and eggs. Add other",
+        "ingredients. Bake in deep dish pie shell for approximately 45",
+        "minutes. It is done when it jiggles just a little bit in the middle",
+        "when shaken!! Remember, it will still appear not done, but will set",
+        "up when cool."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "pie",
+        "pecan",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "mee-maws-banana-pudding",
+      "title": "Mee Maws Banana Pudding",
+      "category": "Desserts",
+      "description": "Clark family recipe for Mee Maws Banana Pudding.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 cup sugar",
+        "3 TBS flour",
+        "2 eggs",
+        "2 cups mild",
+        "1/2 stick butter",
+        "vanilla wafers",
+        "2 bananas"
+      ],
+      "instructions": [
+        "Mix together the sugar and flour.",
+        "Add eggs.",
+        "Slowly add milk.",
+        "Cook over medium heat stirring constantly.",
+        "When thick add butter and whisk till melted.",
+        "Pour over vanilla wafers and bananas."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "pudding",
+        "vanilla",
+        "banana",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "mee-maws-prune-cake",
+      "title": "Mee Maws Prune Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Mee Maws Prune Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "2 cups plain flour",
+        "1 1/2 cups sugar",
+        "1 c wesson oil",
+        "1 c buttermilk",
+        "1 cup nuts",
+        "1 cup cooked prunes",
+        "1 tsp baking soda",
+        "1 tsp vanilla",
+        "1 TBS each cinnamon, nutmeg and allspice",
+        "3 eggs",
+        "icing: 1 stick of butter",
+        "icing: 1 c sugar",
+        "icing: 1 1/2 cup butter milk"
+      ],
+      "instructions": [
+        "Mix dry ingredients. Cook dried prunes with just a little water to",
+        "re hydrate. They will become very tender and fall apart. Add to",
+        "mixture. Beat only to mix.",
+        "Pour into large shallow greased and floured pan.",
+        "Bake at 350° for 30 minutes",
+        "ICING:",
+        "mix ingredients and cook. Bring to a boil. Remove and add 1/2 tsp",
+        "baking soda. Punch holes in cake and pour this hot mixture over.",
+        "Serve cake warm."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "vanilla",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "mee-maws-russian-tea-cakes",
+      "title": "Mee Maws Russian Tea Cakes",
+      "category": "Desserts",
+      "description": "Clark family recipe for Mee Maws Russian Tea Cakes.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 cup butter",
+        "1/2 cup powder sugar",
+        "1 tsp vanilla",
+        "2 1/4 cups plain flour",
+        "1/4 tsp salt",
+        "1 cup chopped nuts"
+      ],
+      "instructions": [
+        "Mix first three ingredients.",
+        "Add the next three.",
+        "Form dough into small balls and bake 400°",
+        "Roll in confectioners sugar right out of oven."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "vanilla",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "micahs-second-grade-no-bake-cookies",
+      "title": "Micah\"s Second Grade \"No Bake\" Cookies",
+      "category": "Desserts",
+      "description": "Clark family recipe for Micah\"s Second Grade \"No Bake\" Cookies.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "12 oz peanut butter",
+        "1 cup honey",
+        "1/2 cup dry milk",
+        "1 small box Cornflakes"
+      ],
+      "instructions": [
+        "Mix the peanut butter, honey and dry milk together. Crush some of",
+        "the cornflakes in a plastic bag, then roll the peanut butter mixture",
+        "into balls and roll in the cornflakes. Even a second grader can do",
+        "this!"
+      ],
+      "notes": "I found this recipe tucked inside my cookbook! Sweet memories!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cookies",
+        "corn",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "mississippi-mud",
+      "title": "Mississippi Mud",
+      "category": "Desserts",
+      "description": "Clark family recipe for Mississippi Mud.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "2 sticks butter 1 box powdered sugar",
+        "2 cups sugar 1/2 cup milk",
+        "1 1/2 cups self rising flour 1 stick butter, softened",
+        "1 tsp vanilla 1/3 cup cocoa",
+        "2 Tbs cocoa",
+        "4 eggs",
+        "1/3 cup pecans, chopped",
+        "1 7 oz marshmallow cream"
+      ],
+      "instructions": [
+        "Cream sugar, cocoa and butter. Add eggs and vanilla. Mix. Add",
+        "flour and nuts. Beat 2 minutes. Greased pan rectangular. Bake",
+        "350° for 35 40 minutes. While hot, spread marshmallow over the",
+        "top. Cool and ice.",
+        "Icing Mix together powdered sugar, milk, butter and cocoa until",
+        "creamy."
+      ],
+      "notes": "Can you say DELICIOUS?!?! So great with a big tall glass of milk!!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "vanilla",
+        "pecan"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "no-bake-cookies",
+      "title": "No Bake Cookies",
+      "category": "Desserts",
+      "description": "Clark family recipe for No Bake Cookies.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "2 cups Sugar",
+        "1 stick Butter",
+        "3 Tbsp Cocoa",
+        "1/2 cup Milk",
+        "3/4 cup Peanut butter",
+        "1 3/4 cups Oatmeal",
+        "1 tsp vanilla"
+      ],
+      "instructions": [
+        "Mix together sugar, cocoa, butter & milk and bring to a boil for",
+        "one minute. Remove from heat, add peanut butter and vanilla. Add",
+        "oatmeal and stir. Drop by teaspoon on wax paper. Let cool."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cookies",
+        "vanilla",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "orange-blossoms",
+      "title": "Orange Blossoms",
+      "category": "Desserts",
+      "description": "Clark family recipe for Orange Blossoms.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 Box Duncan Hines Deluxe Orange Cake Mix (Or any orange cake mix!)",
+        "Juice of 2 Oranges",
+        "Juice of 2 Lemons",
+        "1 1/4 Box of Powdered Sugar",
+        "6 Small Muffin Tins (Or you could do this like a Bundt Cake)"
+      ],
+      "instructions": [
+        "Preheat oven to 350°.",
+        "Prepare cake mix according to instructions on box. Pour into tiny",
+        "muffin tins or pour it all in a Bundt Cake pan. Bake until very light",
+        "brown. Don't overcook!",
+        "GLAZE:",
+        "Mix the orange and lemon juice with sugar. It will mix",
+        "better in the blender if you have one. In not, use a whisk. Put the",
+        "small cupcakes on a rack with a pan under them. Pour over small",
+        "muffins and saturate the cakes with the glaze."
+      ],
+      "notes": "Mee Maw started making these little cupcakes for\nChristmas and EVERYBODY loves them! But, the only time\nanybody ever makes them is for Christmas, but you can make them\nALL YEAR LONG!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "oreo-balls",
+      "title": "Oreo Balls",
+      "category": "Desserts",
+      "description": "Clark family recipe for Oreo Balls.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 package Oreos (not double stuff)",
+        "8 oz cream cheese",
+        "White chocolate morsels",
+        "Semisweet chocolate morsels"
+      ],
+      "instructions": [
+        "Finely chop Oreos in food processor. Add cream cheese and mix",
+        "well.",
+        "Roll mixture into 1 inch balls.",
+        "Melt white chocolate. Can be done in double boiler (bottom pan",
+        "has water boiling and put pan on top of that to heat and melt",
+        "chocolate morsels OR melt small amounts at a time in microwave.)",
+        "Dip balls into melted white chocolate and place on wax paper to",
+        "dry.",
+        "Melt semi sweet chocolate in small amounts in a zip lock bag in",
+        "microwave. Cut a tiny corner off the bag and drizzle chocolate",
+        "over the balls."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "chocolate",
+        "cheese",
+        "sweet"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "perfect-pumpkin-pie",
+      "title": "Perfect Pumpkin Pie",
+      "category": "Desserts",
+      "description": "Clark family recipe for Perfect Pumpkin Pie.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 (15 oz) can pumpkin",
+        "1 (14 oz) can EAGLE BRAND sweetened condensed milk",
+        "2 large eggs",
+        "1 tsp ground cinnamon",
+        "1/2 tsp ground ginger",
+        "1/2 tsp ground nutmeg",
+        "1/2 tsp salt",
+        "1 (9 inch) unbaked pie crust"
+      ],
+      "instructions": [
+        "Preheat oven to 425 degrees",
+        "Whisk pumpkin, sweetened condensed milk, eggs, spices, and salt",
+        "in medium bowl until smooth.",
+        "Pour into crust",
+        "Bake 15 minutes",
+        "Reduce over temperature to 350 degrees and continue baking",
+        "35 40 minutes or until knife inserted 1 inch from the crust comes",
+        "out clean.",
+        "Cool.",
+        "Garnish as desired."
+      ],
+      "notes": "Serve with homemade whipped cream!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "pie",
+        "pumpkin",
+        "sweet",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "pineapple-upsidedown-cake",
+      "title": "Pineapple Upsidedown cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Pineapple Upsidedown cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 large can crushed pineapple",
+        "1 stick butter melted",
+        "1 and 1/2 to 2 cups brown sugar",
+        "1 box cake mix prepared per instructions on box"
+      ],
+      "instructions": [
+        "melt butter in the bottom of a 9 X 13 pan.",
+        "Add enough brown sugar to soak up butter and stir until dissolved.",
+        "Pour can of pineapple on top of this.",
+        "Add prepared cake mix on top of this and bake at 350° until golden",
+        "brown or until done in the middle."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "strawberry-cake",
+      "title": "Strawberry Cake",
+      "category": "Desserts",
+      "description": "Clark family recipe for Strawberry Cake.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 Strawberry Cake Mix",
+        "Fresh strawberries",
+        "1 8 oz cream cheese",
+        "1 stick butter",
+        "1 box powder sugar"
+      ],
+      "instructions": [
+        "Mix cake mix according to package. Instead of all the water,",
+        "squish some of the fresh strawberries up into the measuring cup to",
+        "equal the required amount. (The berries will displace the water.)",
+        "Grease or Pam 3 cake pans and pour batter evenly. Bake as",
+        "instructed. They will cook faster than instructions since you're",
+        "baking 3. DO NOT OVERBAKE!",
+        "Look up Cream Cheese Frosting and instead of adding milk to",
+        "obtain the right consistency, add strawberry juice along with some",
+        "finely chopped up strawberries. The icing should turn a nice",
+        "strawberry pink!"
+      ],
+      "notes": "This cake is a favorite in the summertime when you can use fresh strawberries.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "cheese",
+        "strawberry",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "sugared-pecans-or-peanuts",
+      "title": "Sugared Pecans or Peanuts",
+      "category": "Desserts",
+      "description": "Clark family recipe for Sugared Pecans or Peanuts.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 cup sugar",
+        "1/2 cup water"
+      ],
+      "instructions": [
+        "Dissolve sugar in water, add nuts and continue to cook and stir",
+        "until nuts are completely covered. (No syrup left... 12 15 minutes)",
+        "Pour on cookie sheet lined with foil. Separate pieces. Bake 30",
+        "minutes at 300°. Stir every 5 minutes."
+      ],
+      "notes": "These are great to eat as a snack or on salads.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "sweet-potato-pie",
+      "title": "Sweet Potato Pie",
+      "category": "Desserts",
+      "description": "Clark family recipe for Sweet Potato Pie.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 frozen pie crust",
+        "5 medium sized sweet potatoes",
+        "2 Tbs butter",
+        "1/2 to 1 cup sugar (depending on how sweet you want your pie)",
+        "1 tsp vanilla"
+      ],
+      "instructions": [
+        "Follow instructions for the pie crust.",
+        "Bake or boil the sweet potatoes until soft. Take the skins off and",
+        "put the potatoes in a bowl. Add the butter, sugar and vanilla",
+        "flavoring. If it isn't real creamy, add a few teaspoons of milk and",
+        "milk until creamy.",
+        "Put sweet potatoes in crust and bake according to instructions.",
+        "Top with whipped cream or eat plain."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "pie",
+        "vanilla",
+        "potato",
+        "sweet",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "talk-talks-blueberry-pie",
+      "title": "Talk Talk\"s Blueberry Pie",
+      "category": "Desserts",
+      "description": "Clark family recipe for Talk Talk\"s Blueberry Pie.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 can blueberry pie filling (could be strawberry or cherry, as well)",
+        "1 8 oz. cream cheese",
+        "1 large Cool Whip (13 oz)",
+        "1 Cup Sugar",
+        "2 Pie Crusts"
+      ],
+      "instructions": [
+        "Prepare crust according to package and allow to cool.",
+        "Cream together cream cheese and sugar.",
+        "Add half of Cool Whip to mixture.",
+        "Mix well.",
+        "Add layer of this on bottom of crust then layer the fruit mixture.",
+        "Top with other half of Cool Whip."
+      ],
+      "notes": "I remember having this at Talk Talk's house. I\ndon't love blueberries, but I loved it at her house! I recently found\nher recipe, handwritten by her!! I miss that girl!!",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "pie",
+        "cheese",
+        "strawberry",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "tricias-chocolate-pie",
+      "title": "Tricia\"s Chocolate Pie",
+      "category": "Desserts",
+      "description": "Clark family recipe for Tricia\"s Chocolate Pie.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "2 egg yolks",
+        "1 c sugar",
+        "1/4 c self rising flour",
+        "2 c sweet milk",
+        "1/2 c cocoa",
+        "1 tsp vanilla",
+        "2 TBS butter",
+        "Pinch of salt",
+        "9 in pie crust baked"
+      ],
+      "instructions": [
+        "Combine egg yolks, sugar ,salt, flour and cocoa. Mix very well.",
+        "Add milk slowly to get it all incorporated.",
+        "Cook on medium heat stirring constantly!",
+        "When thickened add vanilla and butter and whisk until butter has",
+        "melted.",
+        "Pour into a pre cooked 9 in. pie crust"
+      ],
+      "notes": "I add the whole egg but if you want a meringue on top of pie separate egg.",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "pie",
+        "vanilla",
+        "sweet",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "willa-deanes-pecan-pie",
+      "title": "Willa Deane\"s Pecan Pie",
+      "category": "Desserts",
+      "description": "Clark family recipe for Willa Deane\"s Pecan Pie.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "3 eggs",
+        "1 cup sugar",
+        "1 cup white karl",
+        "1 tsp vanilla",
+        "1/3 cup butter melted",
+        "1 cup pecans"
+      ],
+      "instructions": [
+        "Mix ingredients except pecansÍ¾beating well.",
+        "then add pecans .",
+        "Pour into pie shell.",
+        "Bake at 425° for 10 minutes then turn down to 300° for about an",
+        "hour."
+      ],
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "pie",
+        "vanilla",
+        "pecan",
+        "dessert"
+      ],
+      "image": "https://picsum.photos/500/300/?random=1"
+    },
+    {
+      "id": "yellow-cake-mix",
+      "title": "Yellow Cake Mix",
+      "category": "Desserts",
+      "description": "Clark family recipe for Yellow Cake Mix.",
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "ingredients": [
+        "1 Stick Butter",
+        "1 1/2 Cups Sugar",
+        "2 Eggs",
+        "1 Cup Milk",
+        "2 Cups Self Rising Flour"
+      ],
+      "instructions": [
+        "Preheat oven to 350°. Cream butter and sugar. Add eggs, milk then",
+        "flour , beating after adding each ingredient until creamy.",
+        "Spray 3 round cake pans with Pam, pour equally and bake until",
+        "golden brown."
+      ],
+      "notes": "Any frosting would be good on this cake. Chocolate, of course, is the best! :)",
+      "origin": "Clark Family Collection",
+      "tags": [
+        "desserts",
+        "cake",
+        "dessert"
+      ],
+      "image": null
     }
   ]
 }

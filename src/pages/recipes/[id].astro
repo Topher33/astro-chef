@@ -1,15 +1,37 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import recipesData from '../../assets/recipes.json';
-const { recipes } = recipesData;
+
+interface Recipe {
+  id: string;
+  title: string;
+  category: string;
+  description?: string;
+  prepTime?: string | null;
+  cookTime?: string | null;
+  servings?: number | string | null;
+  ingredients?: string | string[];
+  instructions?: string | string[];
+  notes?: string;
+  origin?: string;
+  tags?: string | string[];
+  slug?: string;
+  image?: string | null;
+}
+
+const recipes = recipesData.recipes as Recipe[];
+
+function ensureArray(value: string | string[]): string[] {
+  return Array.isArray(value) ? value : [value];
+}
 
 export async function getStaticPaths() {
   const data = await import('../../assets/recipes.json');
-  return data.recipes.map((r: any) => ({ params: { id: String(r.id) } }));
+  return (data.recipes as Recipe[]).map((r) => ({ params: { id: String(r.id) } }));
 }
 const { params } = Astro;
 const id = params.id;
-const recipe = recipes.find((r: any) => String(r.id) === id || (r.slug && r.slug === id));
+const recipe = recipes.find((r) => String(r.id) === id || (r.slug && r.slug === id));
 if (!recipe) {
   throw new Error('Recipe not found');
 }
@@ -17,13 +39,13 @@ if (!recipe) {
 
 <StarlightPage frontmatter={{ title: recipe.title ?? 'Recipe', description: recipe.description ?? 'A family recipe' }}>
   <div class="recipe-detail">
-    {(recipe as any).image && <img src={(recipe as any).image} alt={recipe.title ?? 'Recipe image'} class="recipe-image" />}
+    {recipe.image && <img src={recipe.image} alt={recipe.title ?? 'Recipe image'} class="recipe-image" />}
     
     <div class="recipe-header">
       <span class="recipe-category">{recipe.category}</span>
       {recipe.tags && (
         <div class="recipe-tags">
-          {(Array.isArray(recipe.tags) ? recipe.tags : [recipe.tags]).map((tag: string) => (
+          {ensureArray(recipe.tags).map((tag) => (
             <span class="recipe-tag">{tag}</span>
           ))}
         </div>
@@ -44,7 +66,7 @@ if (!recipe) {
       <div class="recipe-section">
         <h2>Ingredients</h2>
         <ul class="ingredients-list">
-          {(Array.isArray(recipe.ingredients) ? recipe.ingredients : [recipe.ingredients]).map((ingredient: string) => (
+          {ensureArray(recipe.ingredients).map((ingredient) => (
             <li>{ingredient}</li>
           ))}
         </ul>
@@ -55,7 +77,7 @@ if (!recipe) {
       <div class="recipe-section">
         <h2>Instructions</h2>
         <ol class="instructions-list">
-          {(Array.isArray(recipe.instructions) ? recipe.instructions : [recipe.instructions]).map((step: string) => (
+          {ensureArray(recipe.instructions).map((step) => (
             <li>{step}</li>
           ))}
         </ol>

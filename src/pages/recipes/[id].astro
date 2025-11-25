@@ -1,0 +1,51 @@
+---
+import recipesData from '../../assets/recipes.json';
+const { recipes } = recipesData;
+import 'virtual:starlight/user-css';
+import 'virtual:starlight/optional-css';
+
+export async function getStaticPaths() {
+  const data = await import('../../assets/recipes.json');
+  return data.recipes.map((r: any) => ({ params: { id: String(r.id) } }));
+}
+const { params } = Astro;
+const id = params.id;
+const recipe = recipes.find((r: any) => String(r.id) === id || (r.slug && r.slug === id));
+if (!recipe) {
+  throw new Error('Recipe not found');
+}
+const skipKeys = new Set(['image', 'title', 'category', 'tags']);
+const getType = (v: any) => v === null ? 'null' : (Array.isArray(v) ? 'array' : typeof v);
+const renderValue = (v: any) => {
+  if (v === null) return 'null';
+  if (Array.isArray(v)) return v.join(', ');
+  if (typeof v === 'object') return JSON.stringify(v);
+  return String(v);
+};
+---
+
+<div class="page sl-flex">
+  <header class="header">
+    <div class="title-wrapper sl-flex">
+      <a href="/" class="site-title sl-flex">Recipes</a>
+    </div>
+  </header>
+  <div class="main-frame">
+    <main style="padding: 2rem;">
+      {(recipe as any).image ? <img src={(recipe as any).image} alt={recipe.title ?? 'Recipe image'} style="max-width:100%; height:auto;"/> : null}
+      <h1>{recipe.title}</h1>
+      <h2>{recipe.category}</h2>
+      <h3>{Array.isArray(recipe.tags) ? recipe.tags.join(', ') : recipe.tags}</h3>
+
+      {Object.keys(recipe).map((key: string) => {
+        if (skipKeys.has(key)) return null;
+        const type = getType((recipe as any)[key]);
+        return (
+          <div class={type}>
+            <p>{renderValue((recipe as any)[key])}</p>
+          </div>
+        );
+      })}
+    </main>
+  </div>
+</div>

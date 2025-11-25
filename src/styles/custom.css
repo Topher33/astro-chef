@@ -17,6 +17,7 @@
   border: 1px solid var(--recipe-card-border);
   border-radius: 0.5rem;
   padding: 1.5rem;
+  margin-top: 0;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -81,6 +82,7 @@
 }
 
 .category-filter {
+  margin-top: 0;
   padding: 0.5rem 1rem;
   border: 1px solid var(--recipe-card-border);
   border-radius: 1rem;

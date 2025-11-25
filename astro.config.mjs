@@ -3,6 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+  output: 'static',
   integrations: [
     starlight({
       title: 'Family Recipes',

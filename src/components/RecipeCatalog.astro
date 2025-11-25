@@ -27,7 +27,7 @@ const categories = [...new Set(recipes.map(r => r.category))].sort();
 
 <div id="recipe-grid" class="recipe-grid">
   {recipes.map((recipe) => (
-    <div class="recipe-card" data-category={recipe.category}>
+    <a class="recipe-card" href={`/recipes/${recipe.id}`} data-category={recipe.category}>
       <span class="recipe-category">{recipe.category}</span>
       <h3>{recipe.title}</h3>
       <p class="recipe-description">{recipe.description}</p>
@@ -39,7 +39,7 @@ const categories = [...new Set(recipes.map(r => r.category))].sort();
       {recipe.origin && (
         <p class="recipe-origin">— {recipe.origin}</p>
       )}
-    </div>
+    </a>
   ))}
 </div>
 

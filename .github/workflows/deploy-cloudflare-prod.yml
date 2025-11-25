@@ -1,0 +1,59 @@
+name: Deploy static to cloudflare-prod
+
+on:
+  push:
+    branches: [ main, master ]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-cloudflare-prod
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Deploy to cloudflare-prod branch
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com
+        run: |
+          git config user.name "${GIT_AUTHOR_NAME}"
+          git config user.email "${GIT_AUTHOR_EMAIL}"
+          # Fetch existing branch if it exists
+          git fetch origin cloudflare-prod || true
+          # Create an orphan branch named cloudflare-prod or reset existing
+          git checkout --orphan cloudflare-prod || git checkout -B cloudflare-prod
+          # Remove all tracked files from index
+          git rm -rf . || true
+          # Copy build output from dist to repo root
+          cp -r dist/. .
+          # Ensure .github and workflow files are not accidentally removed from the target branch by this workflow
+          # (optional) keep the workflow directory
+          mkdir -p .github/workflows
+          git add -A
+          COMMIT_MSG="Deploy static site: ${GITHUB_SHA} - 2025-11-25T21:39:48.835Z"
+          if git commit -m "$COMMIT_MSG"; then
+            git push -u origin cloudflare-prod --force
+          else
+            echo "No changes to commit"
+          fi

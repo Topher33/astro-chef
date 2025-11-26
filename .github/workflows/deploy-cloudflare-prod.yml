@@ -41,18 +41,25 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
 
-          # Create or reset release worktree
-          git fetch origin release || true
-          git worktree add -f ../release-worktree release || git checkout -B release
+          # Ensure base branch exists
+          git fetch origin cloudflare-prod || true
 
-          # Clean worktree but keep .git metadata
+          # Create clean worktree from cloudflare-prod as base
+          git worktree add -f ../release-worktree cloudflare-prod
+
+          # Switch worktree to new release branch off cloudflare-prod
+          pushd ../release-worktree
+          git checkout -B release
+          popd
+
+          # Clean worktree but keep .git
           find ../release-worktree -mindepth 1 -maxdepth 1 ! -name ".git" -exec rm -rf {} +
 
-          # Copy built assets into worktree (do not touch .git)
+          # Copy build output
           rsync -a --delete --exclude='.git' dist/ ../release-worktree/
 
+          # Commit & push
           pushd ../release-worktree
-          git status
           git add -f -A
           git commit -m "Deploy static content from ${GITHUB_SHA}" || echo "No changes"
           git push -u origin release --force

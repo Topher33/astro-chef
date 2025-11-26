@@ -101,6 +101,9 @@ Recipes follow a structured JSON schema located at `/src/recipes/schema.json`. E
 
 To add new recipes, edit `/src/assets/recipes.json` following the schema defined in `/src/recipes/schema.json`.
 
+## Simple hosting solution
+Any static services on your domain
+
 ## Technologies Used
 
 - **Astro** - Static site generator

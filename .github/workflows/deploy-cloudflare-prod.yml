@@ -35,15 +35,22 @@ jobs:
       - name: Build static site
         run: npm run build
 
-      - name: Push release
+      - name: Publish dist to release branch
         run: |
+          set -e
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git checkout -B release
-          # copy dist etc...
-          git add -A
-          git commit -m "Deploy ${GITHUB_SHA}" || echo "No changes"
-          git push -f origin release
+
+          # Create a clean worktree for release
+          git worktree add -f ../release-worktree release || git checkout -B release
+          rsync -a --delete dist/ ../release-worktree/
+
+          pushd ../release-worktree
+          # Ensure we add ignored files
+          git add -f -A
+          git commit -m "Deploy static content from ${GITHUB_SHA}" || echo "No changes"
+          git push -u origin release --force
+          popd
 
       - name: Create PR with PAT
         env:

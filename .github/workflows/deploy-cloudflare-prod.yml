@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  build-and-submit-pr:
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ github.token }}  # expose token to gh CLI

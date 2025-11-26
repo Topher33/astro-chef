@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-and-submit-pr:
+  build-and-submit:
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ github.token }}  # expose token to gh CLI
@@ -45,21 +45,13 @@ jobs:
           git commit -m "Deploy ${GITHUB_SHA}" || echo "No changes"
           git push -f origin release
 
-      - name: Create PR
+      - name: Create PR with PAT
+        env:
+          GH_PR_TOKEN: ${{ secrets.GH_PR_TOKEN }}  # fine-grained PAT
+          BASE_BRANCH: cloudflare-prod
+          HEAD_BRANCH: release
+          TITLE: "Deploy static site"
+          BODY: "Automated deploy"
         run: |
-          gh pr create --base cloudflare-prod --head release \
-            --title "Deploy static site" \
-            --body "Automated deploy" || echo "PR exists"
-
-      - name: Create PR (REST)
-        run: |
-          OWNER_REPO="${{ github.repository }}"
-          OWNER="${OWNER_REPO%/*}"
-          REPO="${OWNER_REPO#*/}"
-          # Check if PR already exists
-          EXISTING=$(gh api "/repos/$OWNER/$REPO/pulls?head=$OWNER:release&base=cloudflare-prod" --jq '.[0].number')
-          if [ -n "$EXISTING" ]; then
-            echo "PR already exists: #$EXISTING"
-            exit 0
-          fi
-          gh api "/repos/$OWNER/$REPO/pulls" -X POST -f title="Deploy static site" -f head="release" -f base="cloudflare-prod" -f body="Automated deploy"
+          chmod +x .github/scripts/create_pr.sh
+          .github/scripts/create_pr.sh

@@ -1,0 +1,8 @@
+# Require @Topher33 review for all files
+* @Topher33
+
+# Example: only docs
+# /src/content/docs/ @Topher33
+
+# Example: workflows
+# /.github/workflows/ @Topher33

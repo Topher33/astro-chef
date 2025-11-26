@@ -50,3 +50,16 @@ jobs:
           gh pr create --base cloudflare-prod --head release \
             --title "Deploy static site" \
             --body "Automated deploy" || echo "PR exists"
+
+      - name: Create PR (REST)
+        run: |
+          OWNER_REPO="${{ github.repository }}"
+          OWNER="${OWNER_REPO%/*}"
+          REPO="${OWNER_REPO#*/}"
+          # Check if PR already exists
+          EXISTING=$(gh api "/repos/$OWNER/$REPO/pulls?head=$OWNER:release&base=cloudflare-prod" --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            echo "PR already exists: #$EXISTING"
+            exit 0
+          fi
+          gh api "/repos/$OWNER/$REPO/pulls" -X POST -f title="Deploy static site" -f head="release" -f base="cloudflare-prod" -f body="Automated deploy"

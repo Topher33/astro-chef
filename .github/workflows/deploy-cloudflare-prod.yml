@@ -47,7 +47,7 @@ jobs:
 
       - name: Create PR with PAT
         env:
-          GH_PR_TOKEN: ${{ secrets.GH_PR_TOKEN }}  # fine-grained PAT
+          GH_PR_TOKEN: ${{ secrets.GH_PR_TOKEN }}
           BASE_BRANCH: cloudflare-prod
           HEAD_BRANCH: release
           TITLE: "Deploy static site"

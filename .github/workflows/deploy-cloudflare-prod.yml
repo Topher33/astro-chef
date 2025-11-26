@@ -39,21 +39,21 @@ jobs:
         run: |
           git config user.name "${GIT_AUTHOR_NAME}"
           git config user.email "${GIT_AUTHOR_EMAIL}"
-          # Fetch existing branch if it exists
-          git fetch origin cloudflare-prod || true
-          # Create an orphan branch named cloudflare-prod or reset existing
-          git checkout --orphan cloudflare-prod || git checkout -B cloudflare-prod
+          # Fetch the release branch or create it if it doesn't exist
+          git fetch origin release || true
+          git checkout -B release || git checkout release
           # Remove all tracked files from index
           git rm -rf . || true
           # Copy build output from dist to repo root
           cp -r dist/. .
           # Ensure .github and workflow files are not accidentally removed from the target branch by this workflow
-          # (optional) keep the workflow directory
           mkdir -p .github/workflows
           git add -A
-          COMMIT_MSG="Deploy static site: ${GITHUB_SHA} - 2025-11-25T21:39:48.835Z"
+          COMMIT_MSG="Build static site: ${GITHUB_SHA} - $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
           if git commit -m "$COMMIT_MSG"; then
-            git push -u origin cloudflare-prod --force
+            git push -u origin release --force
+            # Create a pull request to merge release into cloudflare-prod
+            gh pr create --base cloudflare-prod --head release --title "Deploy static site" --body "This PR contains the latest build of the static site."
           else
             echo "No changes to commit"
           fi

@@ -6,6 +6,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: deploy-cloudflare-prod
@@ -14,6 +15,8 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}  # expose token to gh CLI
 
     steps:
       - name: Checkout
@@ -24,7 +27,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: Install dependencies
         run: npm ci
@@ -32,28 +35,18 @@ jobs:
       - name: Build static site
         run: npm run build
 
-      - name: Deploy to cloudflare-prod branch
-        env:
-          GIT_AUTHOR_NAME: github-actions[bot]
-          GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com
+      - name: Push release
         run: |
-          git config user.name "${GIT_AUTHOR_NAME}"
-          git config user.email "${GIT_AUTHOR_EMAIL}"
-          # Fetch the release branch or create it if it doesn't exist
-          git fetch origin release || true
-          git checkout -B release || git checkout release
-          # Remove all tracked files from index
-          git rm -rf . || true
-          # Copy build output from dist to repo root
-          cp -r dist/. .
-          # Ensure .github and workflow files are not accidentally removed from the target branch by this workflow
-          mkdir -p .github/workflows
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git checkout -B release
+          # copy dist etc...
           git add -A
-          COMMIT_MSG="Build static site: ${GITHUB_SHA} - $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
-          if git commit -m "$COMMIT_MSG"; then
-            git push -u origin release --force
-            # Create a pull request to merge release into cloudflare-prod
-            gh pr create --base cloudflare-prod --head release --title "Deploy static site" --body "This PR contains the latest build of the static site."
-          else
-            echo "No changes to commit"
-          fi
+          git commit -m "Deploy ${GITHUB_SHA}" || echo "No changes"
+          git push -f origin release
+
+      - name: Create PR
+        run: |
+          gh pr create --base cloudflare-prod --head release \
+            --title "Deploy static site" \
+            --body "Automated deploy" || echo "PR exists"

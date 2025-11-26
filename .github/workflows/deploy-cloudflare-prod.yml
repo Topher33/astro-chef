@@ -41,12 +41,18 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
 
-          # Create a clean worktree for release
+          # Create or reset release worktree
+          git fetch origin release || true
           git worktree add -f ../release-worktree release || git checkout -B release
-          rsync -a --delete dist/ ../release-worktree/
+
+          # Clean worktree but keep .git metadata
+          find ../release-worktree -mindepth 1 -maxdepth 1 ! -name ".git" -exec rm -rf {} +
+
+          # Copy built assets into worktree (do not touch .git)
+          rsync -a --delete --exclude='.git' dist/ ../release-worktree/
 
           pushd ../release-worktree
-          # Ensure we add ignored files
+          git status
           git add -f -A
           git commit -m "Deploy static content from ${GITHUB_SHA}" || echo "No changes"
           git push -u origin release --force
